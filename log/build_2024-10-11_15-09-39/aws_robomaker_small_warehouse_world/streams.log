@@ -1,0 +1,301 @@
+[0.010s] Invoking command in '/home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/tamir/autonomous_robot/aws-robomaker-small-warehouse-world -DCMAKE_INSTALL_PREFIX=/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.184s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.287s] -- Detecting CXX compiler ABI info - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.295s] -- Detecting CXX compile features - done
+[0.299s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.445s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.530s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.582s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.588s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.600s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.675s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.679s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.703s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.712s] -- Looking for pthread.h
+[0.794s] -- Looking for pthread.h - found
+[0.794s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.870s] -- Found Threads: TRUE  
+[0.931s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.931s] -- Checking for module 'bullet>=2.82'
+[0.945s] --   Found bullet, version 3.05
+[1.062s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.121s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.154s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.191s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.224s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.236s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.249s] -- Searching for dependencies of ignition-math6
+[1.251s] -- Looking for OGRE...
+[1.251s] -- OGRE_PREFIX_WATCH changed.
+[1.256s] -- Checking for module 'OGRE'
+[1.272s] --   Found OGRE, version 1.9.0
+[1.313s] -- Found Ogre Ghadamon (1.9.0)
+[1.326s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.334s] -- Looking for OGRE_Paging...
+[1.339s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.339s] -- Looking for OGRE_Terrain...
+[1.344s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.344s] -- Looking for OGRE_Property...
+[1.349s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.349s] -- Looking for OGRE_RTShaderSystem...
+[1.353s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.353s] -- Looking for OGRE_Volume...
+[1.357s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.357s] -- Looking for OGRE_Overlay...
+[1.361s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.455s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.466s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.466s] -- Searching for dependencies of ignition-transport8
+[1.479s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.486s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.490s] -- Checking for module 'libzmq >= 4'
+[1.510s] --   Found libzmq , version 4.3.4
+[1.555s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.563s] -- Checking for module 'uuid'
+[1.580s] --   Found uuid, version 2.37.2
+[1.617s] -- Found UUID: TRUE  
+[1.621s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.622s] -- Searching for dependencies of ignition-msgs5
+[1.643s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.649s] -- Checking for module 'tinyxml2'
+[1.667s] --   Found tinyxml2, version 9.0.0
+[1.706s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.711s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.711s] -- Searching for dependencies of ignition-common3
+[1.712s] -- Looking for dlfcn.h - found
+[1.714s] -- Looking for libdl - found
+[1.716s] -- Found DL: TRUE  
+[1.731s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.732s] -- Searching for <ignition-common3> component [graphics]
+[1.737s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.737s] -- Searching for dependencies of ignition-common3-graphics
+[1.737s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.741s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.741s] -- Searching for dependencies of ignition-fuel_tools4
+[1.838s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.849s] -- Checking for module 'jsoncpp'
+[1.863s] --   Found jsoncpp, version 1.9.5
+[1.902s] -- Found JSONCPP: TRUE  
+[1.910s] -- Checking for module 'libzip'
+[1.929s] --   Found libzip, version 1.7.3
+[1.972s] -- Found ZIP: TRUE  
+[1.972s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.973s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.973s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.979s] -- Gazebo version: 11.10
+[1.979s] -- Checking for module 'tbb'
+[1.996s] --   Found tbb, version 2021.5.0
+[2.097s] -- Configuring done
+[2.100s] -- Generating done
+[2.101s] -- Build files have been written to: /home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world
+[2.112s] Invoked command in '/home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/tamir/autonomous_robot/aws-robomaker-small-warehouse-world -DCMAKE_INSTALL_PREFIX=/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world
+[2.113s] Invoking command in '/home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world -- -j12 -l12
+[2.161s] Invoked command in '/home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world -- -j12 -l12
+[2.189s] Invoking command in '/home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world
+[2.198s] -- Install configuration: ""
+[2.198s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch
+[2.199s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch/small_warehouse.launch.py
+[2.199s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch/no_roof_small_warehouse.launch.py
+[2.199s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models
+[2.199s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01
+[2.199s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/model.sdf
+[2.199s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes
+[2.199s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE
+[2.199s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE
+[2.199s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/model.config
+[2.199s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/.DS_Store
+[2.200s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials
+[2.200s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials/.DS_Store
+[2.200s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials/textures
+[2.200s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+[2.200s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01
+[2.200s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[2.200s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes
+[2.200s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[2.200s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[2.201s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[2.201s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/.DS_Store
+[2.201s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials
+[2.201s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/.DS_Store
+[2.201s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures
+[2.201s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[2.201s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[2.202s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01
+[2.202s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[2.202s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes
+[2.202s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[2.202s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[2.202s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[2.202s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials
+[2.202s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures
+[2.202s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[2.202s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[2.203s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01
+[2.203s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[2.203s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes
+[2.203s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[2.203s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[2.203s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/model.config
+[2.203s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/materials
+[2.203s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/materials/textures
+[2.203s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[2.203s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01
+[2.203s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[2.204s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes
+[2.204s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE
+[2.204s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE
+[2.204s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/model.config
+[2.204s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials
+[2.204s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures
+[2.204s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[2.204s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[2.205s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[2.205s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[2.205s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01
+[2.205s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[2.205s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes
+[2.205s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[2.205s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[2.205s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[2.205s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials
+[2.205s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures
+[2.205s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/.DS_Store
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/model.config
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/.DS_Store
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/.DS_Store
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures
+[2.206s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[2.207s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[2.207s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[2.207s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[2.207s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01
+[2.207s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[2.207s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes
+[2.207s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[2.207s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[2.207s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/model.config
+[2.207s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials
+[2.208s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures
+[2.208s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/model.config
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/materials
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/materials/textures
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[2.209s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/.DS_Store
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/.DS_Store
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/.DS_Store
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[2.210s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/model.config
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/materials
+[2.211s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/model.sdf
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/model.config
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/materials
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/materials/textures
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/model.config
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials
+[2.212s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/.DS_Store
+[2.213s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures
+[2.213s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[2.213s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[2.214s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[2.214s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[2.214s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[2.214s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds
+[2.214s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/no_roof_small_warehouse
+[2.214s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/no_roof_small_warehouse/no_roof_small_warehouse.world
+[2.214s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/small_warehouse
+[2.214s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/small_warehouse/small_warehouse.world
+[2.214s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps
+[2.214s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005
+[2.214s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map_rotated.png
+[2.214s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map.pgm
+[2.215s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map_rotated.pgm
+[2.215s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map.yaml
+[2.215s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/.DS_Store
+[2.215s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002
+[2.215s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002/map.pgm
+[2.216s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002/map.yaml
+[2.216s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/rviz
+[2.216s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/rviz/basic_data.rviz
+[2.216s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/aws_robomaker_small_warehouse_world.dsv
+[2.216s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_small_warehouse_world
+[2.216s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_small_warehouse_world
+[2.216s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/ament_prefix_path.sh
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/ament_prefix_path.dsv
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/path.sh
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/path.dsv
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.bash
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.sh
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.zsh
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.dsv
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/packages/aws_robomaker_small_warehouse_world
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig.cmake
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig-version.cmake
+[2.217s] -- Installing: /home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.xml
+[2.219s] Invoked command in '/home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world

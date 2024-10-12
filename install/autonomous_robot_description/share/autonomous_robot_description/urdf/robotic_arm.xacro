@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Transmission and Actuator Definitions -->
+  <transmission name="shoulder_pan_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="shoulder_pan_joint">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="shoulder_pan_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  
+  <!-- Additional transmissions for other joints -->
+  <!-- Repeat similar blocks for all joints: shoulder_lift_joint, elbow_joint, etc. -->
+
+  <!-- Robot Links and Inertial Properties -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://ur_description/meshes/ur10e/visual/base.dae"/>
+      </geometry>
+      <material name="LightGrey">
+        <color rgba="0.7 0.7 0.7 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://ur_description/meshes/ur10e/collision/base.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="4.0"/>
+      <inertia ixx="0.0061063308908" iyy="0.0061063308908" izz="0.01125"/>
+    </inertial>
+  </link>
+  
+  <!-- Repeat similar blocks for shoulder_link, upper_arm_link, etc. -->
+
+  <!-- Joint Definitions -->
+  <joint name="shoulder_pan_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="shoulder_link"/>
+    <origin xyz="0 0 0.1807"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="330.0" velocity="2.094" lower="-6.283" upper="6.283"/>
+  </joint>
+  
+  <!-- Repeat joint blocks for all other joints like elbow_joint, wrist_1_joint, etc. -->
+
+  <!-- Gazebo Plugin for ROS2 Control Integration -->
+  <gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+      <robotNamespace>/</robotNamespace>
+    </plugin>
+  </gazebo>
+
+  <!-- ROS2 Control Configuration -->
+  <ros2_control name="IsaacSimSystem" type="system">
+    <hardware>
+      <plugin>topic_based_ros2_control/TopicBasedSystem</plugin>
+      <param name="joint_commands_topic">/isaac_joint_commands</param>
+      <param name="joint_states_topic">/isaac_joint_states</param>
+      <param name="sum_wrapped_joint_states">false</param>
+    </hardware>
+    <joint name="shoulder_pan_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <!-- Add similar control blocks for the rest of the joints -->
+  </ros2_control>
+
+  <!-- Gazebo Parameters -->
+  <gazebo reference="base_link">
+    <kp>100000.0</kp>
+    <kd>1.0</kd>
+  </gazebo>
+  
+</robot>
