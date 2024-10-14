@@ -50,7 +50,7 @@
                     <argument>~/out:=scan</argument> <!--   the topic we are publishing on    -->
                 </ros>
                 <output_type>sensor_msgs/LaserScan</output_type>
-                <frame_name>laser_frame</frame_name>
+                <frame_name>lidar_link</frame_name>
             </plugin>
         </sensor>
     </gazebo>
