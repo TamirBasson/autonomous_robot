@@ -5,5 +5,7 @@
     <xacro:include filename="mobile_robot.xacro" />
     <xacro:include filename="lidar.xacro" />
     <xacro:include filename="camera.xacro" />
-    <xacro:include filename="autonomous_robot_gazebo.xacro" />
+    <!-- <xacro:include filename="autonomous_robot_gazebo.xacro" /> -->
+    <xacro:include filename="ros2_control.xacro" />
+    <xacro:include filename="gazebo_color.xacro" />
 </robot>
