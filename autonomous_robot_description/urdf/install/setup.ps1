@@ -25,7 +25,7 @@ function _colcon_prefix_chain_powershell_source_script {
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/tamir/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/tamir/ros2_ws/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/tamir/turtlebot3_ws/install\local_setup.ps1"
 
 # source this prefix

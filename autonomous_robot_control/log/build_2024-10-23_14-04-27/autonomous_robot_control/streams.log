@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/home/tamir/autonomous_robot/autonomous_robot_control/build/autonomous_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/autonomous_robot_control/build/autonomous_robot_control -- -j12 -l12
+[0.066s] [ 16%] [32mBuilding CXX object CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o[0m
+[0.074s] [ 50%] Built target teleop_joy_node
+[0.192s] [ 66%] [32m[1mLinking CXX static library libautonomous_robot_control.a[0m
+[0.235s] [ 66%] Built target autonomous_robot_control
+[0.248s] [35m[1mConsolidate compiler generated dependencies of target prototype_joy_driver[0m
+[0.271s] [ 83%] [32mBuilding CXX object CMakeFiles/prototype_joy_driver.dir/src/prototype_joy_driver.cpp.o[0m
+[5.818s] [100%] [32m[1mLinking CXX executable prototype_joy_driver[0m
+[6.146s] /usr/bin/ld: libautonomous_robot_control.a(prototype_joy_controller_class.cpp.o): in function `PrototypeControl::NewFunction(bool, double, int&, double, int&, bool&, bool&)':
+[6.146s] prototype_joy_controller_class.cpp:(.text+0x586): undefined reference to `PrototypeControl::SpeedCtrl(double, int)'
+[6.146s] /usr/bin/ld: prototype_joy_controller_class.cpp:(.text+0x5b7): undefined reference to `PrototypeControl::SpeedCtrl(double, int)'
+[6.146s] /usr/bin/ld: prototype_joy_controller_class.cpp:(.text+0x620): undefined reference to `PrototypeControl::SpeedCtrl(double, int)'
+[6.146s] /usr/bin/ld: prototype_joy_controller_class.cpp:(.text+0x658): undefined reference to `PrototypeControl::SpeedCtrl(double, int)'
+[6.146s] /usr/bin/ld: prototype_joy_controller_class.cpp:(.text+0x6cf): undefined reference to `PrototypeControl::SpeedCtrl(double, int)'
+[6.146s] /usr/bin/ld: libautonomous_robot_control.a(prototype_joy_controller_class.cpp.o):prototype_joy_controller_class.cpp:(.text+0x700): more undefined references to `PrototypeControl::SpeedCtrl(double, int)' follow
+[6.163s] collect2: error: ld returned 1 exit status
+[6.164s] gmake[2]: *** [CMakeFiles/prototype_joy_driver.dir/build.make:184: prototype_joy_driver] Error 1
+[6.164s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/prototype_joy_driver.dir/all] Error 2
+[6.164s] gmake: *** [Makefile:146: all] Error 2
+[6.166s] Invoked command in '/home/tamir/autonomous_robot/autonomous_robot_control/build/autonomous_robot_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/autonomous_robot_control/build/autonomous_robot_control -- -j12 -l12

@@ -6,6 +6,9 @@ Panels:
       Expanded:
         - /Image1/Topic1
         - /LaserScan1/Topic1
+        - /Map1
+        - /Map1/Status1
+        - /Map1/Topic1
       Splitter Ratio: 0.5
     Tree Height: 549
   - Class: rviz_common/Selection
@@ -147,6 +150,8 @@ Visualization Manager:
           Value: true
         lidar_link:
           Value: true
+        map:
+          Value: true
         odom:
           Value: true
         rear_hinge:
@@ -161,25 +166,26 @@ Visualization Manager:
       Show Axes: true
       Show Names: false
       Tree:
-        base_footprint:
-          base_link:
-            camera_link:
-              camera_link_optical:
-                {}
-            front_hinge:
-              front_wheel_link:
-                {}
-            left_wheel_link:
-              {}
-            lidar_link:
-              {}
-            rear_hinge:
-              rear_wheel_link:
-                {}
-            right_wheel_link:
-              {}
-        odom:
+        map:
           {}
+        odom:
+          base_footprint:
+            base_link:
+              camera_link:
+                camera_link_optical:
+                  {}
+              front_hinge:
+                front_wheel_link:
+                  {}
+              left_wheel_link:
+                {}
+              lidar_link:
+                {}
+              rear_hinge:
+                rear_wheel_link:
+                  {}
+              right_wheel_link:
+                {}
       Update Interval: 0
       Value: true
     - Class: rviz_default_plugins/Image
@@ -230,6 +236,27 @@ Visualization Manager:
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz_default_plugins/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /map
+      Update Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /map_updates
+      Use Timestamp: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -276,7 +303,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 22.45136070251465
+      Distance: 9.697105407714844
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -291,10 +318,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.595398485660553
+      Pitch: 0.43539881706237793
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.6772146224975586
+      Yaw: 1.7022145986557007
     Saved: ~
 Window Geometry:
   Displays:

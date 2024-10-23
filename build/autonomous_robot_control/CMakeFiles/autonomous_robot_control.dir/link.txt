@@ -1,0 +1,2 @@
+/usr/bin/ar qc libautonomous_robot_control.a CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o
+/usr/bin/ranlib libautonomous_robot_control.a

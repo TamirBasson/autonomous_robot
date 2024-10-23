@@ -1,0 +1,12 @@
+/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles/uninstall.dir
+/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles/autonomous_robot_control_uninstall.dir
+/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles/autonomous_robot_control.dir
+/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles/teleop_joy_node.dir
+/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles/prototype_joy_driver.dir
+/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles/test.dir
+/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles/edit_cache.dir
+/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles/rebuild_cache.dir
+/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles/list_install_components.dir
+/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles/install.dir
+/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles/install/local.dir
+/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles/install/strip.dir

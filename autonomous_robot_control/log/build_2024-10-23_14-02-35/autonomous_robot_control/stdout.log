@@ -1,0 +1,2 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o[0m
+[ 50%] Built target teleop_joy_node

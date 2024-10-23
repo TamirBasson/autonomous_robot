@@ -1,0 +1,11 @@
+/usr/bin/ld: libautonomous_robot_control.a(prototype_joy_controller_class.cpp.o): in function `PrototypeControl::NewFunction(bool, double, int&, double, int&, bool&, bool&)':
+prototype_joy_controller_class.cpp:(.text+0x586): undefined reference to `PrototypeControl::SpeedCtrl(double, int)'
+/usr/bin/ld: prototype_joy_controller_class.cpp:(.text+0x5b7): undefined reference to `PrototypeControl::SpeedCtrl(double, int)'
+/usr/bin/ld: prototype_joy_controller_class.cpp:(.text+0x620): undefined reference to `PrototypeControl::SpeedCtrl(double, int)'
+/usr/bin/ld: prototype_joy_controller_class.cpp:(.text+0x658): undefined reference to `PrototypeControl::SpeedCtrl(double, int)'
+/usr/bin/ld: prototype_joy_controller_class.cpp:(.text+0x6cf): undefined reference to `PrototypeControl::SpeedCtrl(double, int)'
+/usr/bin/ld: libautonomous_robot_control.a(prototype_joy_controller_class.cpp.o):prototype_joy_controller_class.cpp:(.text+0x700): more undefined references to `PrototypeControl::SpeedCtrl(double, int)' follow
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/prototype_joy_driver.dir/build.make:184: prototype_joy_driver] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/prototype_joy_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

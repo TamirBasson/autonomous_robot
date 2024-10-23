@@ -1,2 +1,1 @@
-source;share/autonomous_robot_description/environment/ament_prefix_path.sh
-source;share/autonomous_robot_description/environment/path.sh
+/home/tamir/autonomous_robot/autonomous_robot_description/build/autonomous_robot_description/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,0 +1,7 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o[0m
+[ 50%] Built target teleop_joy_node
+[ 66%] [32m[1mLinking CXX static library libautonomous_robot_control.a[0m
+[ 66%] Built target autonomous_robot_control
+[35m[1mConsolidate compiler generated dependencies of target prototype_joy_driver[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/prototype_joy_driver.dir/src/prototype_joy_driver.cpp.o[0m
+[100%] [32m[1mLinking CXX executable prototype_joy_driver[0m

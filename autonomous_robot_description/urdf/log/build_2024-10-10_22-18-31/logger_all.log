@@ -6,7 +6,7 @@
 [0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
 [0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
 [0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
-[0.161s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/urdf'
+[0.161s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/urdf'
 [0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
 [0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
 [0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
@@ -38,7 +38,7 @@
 [0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
 [0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
 [0.184s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/tamir/turtlebot3_ws/install
-[0.184s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/install
+[0.184s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/install
 [0.184s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/tamir/ros2_ws/install
 [0.185s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/tamir/install
 [0.186s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 388 installed packages in /opt/ros/humble
@@ -54,13 +54,13 @@
 [0.226s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
 [0.235s] DEBUG:colcon.colcon_core.event_reactor:joined thread
 [0.237s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
-[0.237s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/urdf/install/local_setup.ps1'
-[0.238s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/urdf/install/_local_setup_util_ps1.py'
-[0.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/urdf/install/setup.ps1'
-[0.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/urdf/install/local_setup.sh'
-[0.240s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/urdf/install/_local_setup_util_sh.py'
-[0.240s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/urdf/install/setup.sh'
-[0.241s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/urdf/install/local_setup.bash'
-[0.241s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/urdf/install/setup.bash'
-[0.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/urdf/install/local_setup.zsh'
-[0.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/Project-29-2024-main/My_Strong_Computer/mauro_prototype_description/urdf/install/setup.zsh'
+[0.237s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/urdf/install/local_setup.ps1'
+[0.238s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/urdf/install/_local_setup_util_ps1.py'
+[0.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/urdf/install/setup.ps1'
+[0.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/urdf/install/local_setup.sh'
+[0.240s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/urdf/install/_local_setup_util_sh.py'
+[0.240s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/urdf/install/setup.sh'
+[0.241s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/urdf/install/local_setup.bash'
+[0.241s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/urdf/install/setup.bash'
+[0.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/urdf/install/local_setup.zsh'
+[0.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/Project-29-2024-main/My_Strong_Computer/autonomous_robot_description/urdf/install/setup.zsh'
