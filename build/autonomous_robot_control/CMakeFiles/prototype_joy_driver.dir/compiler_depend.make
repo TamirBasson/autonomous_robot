@@ -671,7 +671,7 @@ CMakeFiles/prototype_joy_driver.dir/src/prototype_joy_driver.cpp.o: /home/tamir/
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
-  /home/tamir/autonomous_robot/autonomous_robot_control/include/autonomous_robot_control/prototype_joy_controller_class.hpp \
+  /home/tamir/autonomous_robot/autonomous_robot_control/include/autonomous_robot_control/joy_compute_control.hpp \
   /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/ser_com_struct.hpp \
   /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__struct.hpp \
   /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__builder.hpp \
@@ -683,6 +683,8 @@ CMakeFiles/prototype_joy_driver.dir/src/prototype_joy_driver.cpp.o: /home/tamir/
 /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__builder.hpp:
 
 /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/ser_com_struct.hpp:
+
+/home/tamir/autonomous_robot/autonomous_robot_control/include/autonomous_robot_control/joy_compute_control.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp:
 
@@ -1765,8 +1767,6 @@ CMakeFiles/prototype_joy_driver.dir/src/prototype_joy_driver.cpp.o: /home/tamir/
 /opt/ros/humble/include/rcl/rcl/event_callback.h:
 
 /opt/ros/humble/include/tracetools/tracetools/tracetools.h:
-
-/home/tamir/autonomous_robot/autonomous_robot_control/include/autonomous_robot_control/prototype_joy_controller_class.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
 

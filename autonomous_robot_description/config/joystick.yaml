@@ -1,3 +1,4 @@
+#joystick parameters (button and axis mappings)
 joy_node:
   ros__parameters:
     device_id: 0

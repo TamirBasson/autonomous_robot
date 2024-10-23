@@ -34,7 +34,8 @@ def generate_launch_description():
     #         #remappings=[('/cmd_vel','/cmd_vel_joy')]
     #      )
 
-    # twist_stamper = Node(
+    # Node to add a timestamp to incoming /cmd_vel_unstamped messages and publish them to /cmd_vel
+    # twist_stamper = Node( 
     #         package='twist_stamper',
     #         executable='twist_stamper',
     #         parameters=[{'use_sim_time': use_sim_time}],
@@ -49,6 +50,6 @@ def generate_launch_description():
             default_value='true',
             description='Use sim time if true'),
         joy_node,
-        teleop_node
+        # teleop_node
         # twist_stamper       
     ])

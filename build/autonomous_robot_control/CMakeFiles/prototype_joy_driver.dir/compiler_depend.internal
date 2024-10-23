@@ -672,7 +672,7 @@ CMakeFiles/prototype_joy_driver.dir/src/prototype_joy_driver.cpp.o
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
- /home/tamir/autonomous_robot/autonomous_robot_control/include/autonomous_robot_control/prototype_joy_controller_class.hpp
+ /home/tamir/autonomous_robot/autonomous_robot_control/include/autonomous_robot_control/joy_compute_control.hpp
  /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/ser_com_struct.hpp
  /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__struct.hpp
  /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__builder.hpp
