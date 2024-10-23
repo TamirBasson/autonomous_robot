@@ -1,2 +1,2 @@
-# autonomous_robot_sim
+# autonomous_robot
 autonomous robot in Gazebo simulation
