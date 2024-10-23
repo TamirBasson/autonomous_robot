@@ -236,29 +236,29 @@ prototype_joy_driver/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prototype_joy_driver.dir/build.make CMakeFiles/prototype_joy_driver.dir/build
 .PHONY : prototype_joy_driver/fast
 
-src/prototype_joy_controller_class.o: src/prototype_joy_controller_class.cpp.o
-.PHONY : src/prototype_joy_controller_class.o
+src/joy_compute_control.o: src/joy_compute_control.cpp.o
+.PHONY : src/joy_compute_control.o
 
 # target to build an object file
-src/prototype_joy_controller_class.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_robot_control.dir/build.make CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o
-.PHONY : src/prototype_joy_controller_class.cpp.o
+src/joy_compute_control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_robot_control.dir/build.make CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.o
+.PHONY : src/joy_compute_control.cpp.o
 
-src/prototype_joy_controller_class.i: src/prototype_joy_controller_class.cpp.i
-.PHONY : src/prototype_joy_controller_class.i
+src/joy_compute_control.i: src/joy_compute_control.cpp.i
+.PHONY : src/joy_compute_control.i
 
 # target to preprocess a source file
-src/prototype_joy_controller_class.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_robot_control.dir/build.make CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.i
-.PHONY : src/prototype_joy_controller_class.cpp.i
+src/joy_compute_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_robot_control.dir/build.make CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.i
+.PHONY : src/joy_compute_control.cpp.i
 
-src/prototype_joy_controller_class.s: src/prototype_joy_controller_class.cpp.s
-.PHONY : src/prototype_joy_controller_class.s
+src/joy_compute_control.s: src/joy_compute_control.cpp.s
+.PHONY : src/joy_compute_control.s
 
 # target to generate assembly for a file
-src/prototype_joy_controller_class.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_robot_control.dir/build.make CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.s
-.PHONY : src/prototype_joy_controller_class.cpp.s
+src/joy_compute_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_robot_control.dir/build.make CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.s
+.PHONY : src/joy_compute_control.cpp.s
 
 src/prototype_joy_driver.o: src/prototype_joy_driver.cpp.o
 .PHONY : src/prototype_joy_driver.o
@@ -326,9 +326,9 @@ help:
 	@echo "... autonomous_robot_control"
 	@echo "... prototype_joy_driver"
 	@echo "... teleop_joy_node"
-	@echo "... src/prototype_joy_controller_class.o"
-	@echo "... src/prototype_joy_controller_class.i"
-	@echo "... src/prototype_joy_controller_class.s"
+	@echo "... src/joy_compute_control.o"
+	@echo "... src/joy_compute_control.i"
+	@echo "... src/joy_compute_control.s"
 	@echo "... src/prototype_joy_driver.o"
 	@echo "... src/prototype_joy_driver.i"
 	@echo "... src/prototype_joy_driver.s"

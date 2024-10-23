@@ -21,7 +21,7 @@ include_directories(include)
 
 # Add the library (class definition)
 add_library(autonomous_robot_control
-  src/prototype_joy_controller_class.cpp
+  src/joy_compute_control.cpp
 )
 
 # Add executables for the nodes

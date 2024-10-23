@@ -69,28 +69,28 @@ include CMakeFiles/autonomous_robot_control.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/autonomous_robot_control.dir/flags.make
 
-CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o: CMakeFiles/autonomous_robot_control.dir/flags.make
-CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o: /home/tamir/autonomous_robot/autonomous_robot_control/src/prototype_joy_controller_class.cpp
-CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o: CMakeFiles/autonomous_robot_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o -MF CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o.d -o CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o -c /home/tamir/autonomous_robot/autonomous_robot_control/src/prototype_joy_controller_class.cpp
+CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.o: CMakeFiles/autonomous_robot_control.dir/flags.make
+CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.o: /home/tamir/autonomous_robot/autonomous_robot_control/src/joy_compute_control.cpp
+CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.o: CMakeFiles/autonomous_robot_control.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.o -MF CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.o.d -o CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.o -c /home/tamir/autonomous_robot/autonomous_robot_control/src/joy_compute_control.cpp
 
-CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tamir/autonomous_robot/autonomous_robot_control/src/prototype_joy_controller_class.cpp > CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.i
+CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tamir/autonomous_robot/autonomous_robot_control/src/joy_compute_control.cpp > CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.i
 
-CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tamir/autonomous_robot/autonomous_robot_control/src/prototype_joy_controller_class.cpp -o CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.s
+CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tamir/autonomous_robot/autonomous_robot_control/src/joy_compute_control.cpp -o CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.s
 
 # Object files for target autonomous_robot_control
 autonomous_robot_control_OBJECTS = \
-"CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o"
+"CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.o"
 
 # External object files for target autonomous_robot_control
 autonomous_robot_control_EXTERNAL_OBJECTS =
 
-libautonomous_robot_control.a: CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o
+libautonomous_robot_control.a: CMakeFiles/autonomous_robot_control.dir/src/joy_compute_control.cpp.o
 libautonomous_robot_control.a: CMakeFiles/autonomous_robot_control.dir/build.make
 libautonomous_robot_control.a: CMakeFiles/autonomous_robot_control.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tamir/autonomous_robot/build/autonomous_robot_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libautonomous_robot_control.a"
