@@ -1,3 +1,1 @@
-source;share/aws_robomaker_small_warehouse_world/environment/ament_prefix_path.sh
-source;share/aws_robomaker_small_warehouse_world/environment/path.sh
-source;share/aws_robomaker_small_warehouse_world/environment/aws_robomaker_small_warehouse_world.dsv
+/home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world/ament_cmake_environment_hooks/local_setup.dsv

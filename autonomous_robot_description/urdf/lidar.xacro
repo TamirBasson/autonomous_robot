@@ -15,7 +15,7 @@
         </visual>
         <collision>
             <geometry>
-                <box radius="${lidar_radius}" length="${lidar_h}" />
+                <cylinder radius="${lidar_radius}" length="${lidar_h}" />
             </geometry>
         </collision>
         <xacro:wheel_inertia mass="0.1" l="${2*lidar_h}" r="${2*lidar_radius}" xyz="0 0 0" rpy="0 0 0" />
@@ -31,7 +31,7 @@
         <sensor name="laser_link" type="ray">
             <pose> 0 0 0 0 0 0 </pose>
             <visualize>true</visualize>
-            <update_rate>5.0</update_rate>
+            <update_rate>10.0</update_rate>
             <ray>
                 <scan>
                     <horizontal>

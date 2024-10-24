@@ -27,6 +27,16 @@
     <node pkg="gazebo_ros" exec="spawn_entity.py" 
           output="screen"
           args="-topic robot_description -entity autonomous_robot" />
+
+    <!-- <node
+        pkg="controller_manager"
+        exec="ros2_control_node"
+        output="screen"
+        name="ros2_control_node">
+        <param name="parameters" value="$(find autonomous_robot_description)/config/sim_joint_controller.yaml" />
+        <remap from="~/robot_description" to="/robot_description" />
+    </node> -->
+
     
     <!-- Spawning the differential controller -->
     <node
@@ -34,7 +44,7 @@
         exec="spawner"
         output="screen"
         args="diff_cont">
-    </node>
+    </node> 
 
     <!-- Spawning the joint board controller -->
     <node
@@ -42,7 +52,7 @@
         exec="spawner"
         output="screen"
         args="joint_broad">
-    </node>
+    </node> 
 
     <!-- RViz Launch -->
     <node pkg="rviz2" exec="rviz2" output="screen"

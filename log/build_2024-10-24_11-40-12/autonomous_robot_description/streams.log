@@ -1,0 +1,73 @@
+[0.013s] Invoking command in '/home/tamir/autonomous_robot/build/autonomous_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/tamir/autonomous_robot/autonomous_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tamir/autonomous_robot/install/autonomous_robot_description
+[0.024s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.119s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.173s] -- Configuring done
+[0.174s] -- Generating done
+[0.175s] -- Build files have been written to: /home/tamir/autonomous_robot/build/autonomous_robot_description
+[0.177s] Invoked command in '/home/tamir/autonomous_robot/build/autonomous_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/tamir/autonomous_robot/autonomous_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tamir/autonomous_robot/install/autonomous_robot_description
+[0.179s] Invoking command in '/home/tamir/autonomous_robot/build/autonomous_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/autonomous_robot_description -- -j12 -l12
+[0.208s] Invoked command in '/home/tamir/autonomous_robot/build/autonomous_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/autonomous_robot_description -- -j12 -l12
+[0.238s] Invoking command in '/home/tamir/autonomous_robot/build/autonomous_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/autonomous_robot_description
+[0.243s] -- Install configuration: ""
+[0.244s] -- Execute custom install script
+[0.244s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//config/joint_controller_real.yaml
+[0.250s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//config/joystick.yaml
+[0.256s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//config/mapper_params_online_async.yaml
+[0.262s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//config/sim_joint_controller .yaml
+[0.270s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//launch/real_robot.launch.py
+[0.276s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//launch/sim_gazebo.launch.xml
+[0.282s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//rviz/urdf_config.rviz
+[0.288s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.288s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.288s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.288s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.288s] Call Stack (most recent call first):
+[0.288s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.288s]   cmake_install.cmake:46 (include)
+[0.288s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.288s] [0m
+[0.288s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/autonomous_robot.urdf.xacro
+[0.294s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/autonomous_robot_gazebo.xacro
+[0.301s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/build/.built_by
+[0.310s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/build/COLCON_IGNORE
+[0.317s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/camera.xacro
+[0.323s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/common_properties.xacro
+[0.333s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/gazebo_color.xacro
+[0.340s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/install/.colcon_install_layout
+[0.346s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/install/COLCON_IGNORE
+[0.353s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/install/_local_setup_util_ps1.py
+[0.361s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/install/_local_setup_util_sh.py
+[0.371s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/install/local_setup.bash
+[0.378s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/install/local_setup.ps1
+[0.384s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/install/local_setup.sh
+[0.395s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/install/local_setup.zsh
+[0.402s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/install/setup.bash
+[0.411s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/install/setup.ps1
+[0.422s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/install/setup.sh
+[0.429s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/install/setup.zsh
+[0.436s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/lidar.xacro
+[0.445s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/log/COLCON_IGNORE
+[0.452s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/log/build_2024-10-10_22-18-31/events.log
+[0.458s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/log/build_2024-10-10_22-18-31/logger_all.log
+[0.468s] -- Up-to-date symlink: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/log/latest/events.log
+[0.468s] -- Up-to-date symlink: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/log/latest/logger_all.log
+[0.468s] -- Up-to-date symlink: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/log/latest_build/events.log
+[0.468s] -- Up-to-date symlink: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/log/latest_build/logger_all.log
+[0.468s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/mobile_robot.xacro
+[0.477s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/ros2_control.xacro
+[0.486s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/ament_index/resource_index/package_run_dependencies/autonomous_robot_description
+[0.492s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/ament_index/resource_index/parent_prefix_path/autonomous_robot_description
+[0.501s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/environment/ament_prefix_path.sh
+[0.508s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/environment/ament_prefix_path.dsv
+[0.514s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/environment/path.sh
+[0.520s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/environment/path.dsv
+[0.527s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/local_setup.bash
+[0.537s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/local_setup.sh
+[0.543s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/local_setup.zsh
+[0.549s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/local_setup.dsv
+[0.558s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/package.dsv
+[0.564s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/ament_index/resource_index/packages/autonomous_robot_description
+[0.570s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/cmake/autonomous_robot_descriptionConfig.cmake
+[0.576s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/cmake/autonomous_robot_descriptionConfig-version.cmake
+[0.582s] -- Symlinking: /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/package.xml
+[0.590s] Invoked command in '/home/tamir/autonomous_robot/build/autonomous_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/autonomous_robot_description

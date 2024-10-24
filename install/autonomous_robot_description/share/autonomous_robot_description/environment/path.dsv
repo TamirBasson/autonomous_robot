@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/tamir/autonomous_robot/build/autonomous_robot_description/ament_cmake_environment_hooks/path.dsv
