@@ -1,0 +1,1 @@
+/home/tamir/autonomous_robot/autonomous_robot_description/launch/navigation_launch.py
