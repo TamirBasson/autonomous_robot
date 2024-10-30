@@ -22,7 +22,8 @@ def generate_launch_description():
             package='autonomous_robot_control',
             executable='teleop_joy_node',
             name='teleop_node',
-            parameters=[{'use_sim_time': use_sim_time}] 
+            parameters=[{'use_sim_time': use_sim_time}],
+            remappings=[('/cmd_vel','/cmd_vel')]
          )
     
     # using ros2 teleop twist joy node
@@ -31,7 +32,7 @@ def generate_launch_description():
     #         executable='teleop_node',
     #         name='teleop_node',
     #         parameters=[joy_params, {'use_sim_time': use_sim_time}]  # remember to add ,
-    #         #remappings=[('/cmd_vel','/cmd_vel_joy')]
+    #         #remappings=[('/cmd_vel','/cmd_vel')]
     #      )
 
     # Node to add a timestamp to incoming /cmd_vel_unstamped messages and publish them to /cmd_vel
@@ -39,9 +40,8 @@ def generate_launch_description():
     #         package='twist_stamper',
     #         executable='twist_stamper',
     #         parameters=[{'use_sim_time': use_sim_time}],
-    #         remappings=[('/cmd_vel_in','/cmd_vel_unstamped'),
-    #                     ('/cmd_vel_out','/cmd_vel')]
-    #      )
+    #         remappings=[('/cmd_vel_in','/cmd_vel_'),
+    #                     ('/cmd_vel_out','/diff_cont/cmd_vel')])
 
 
     return LaunchDescription([
@@ -50,6 +50,6 @@ def generate_launch_description():
             default_value='true',
             description='Use sim time if true'),
         joy_node,
-        # teleop_node
+        teleop_node
         # twist_stamper       
     ])

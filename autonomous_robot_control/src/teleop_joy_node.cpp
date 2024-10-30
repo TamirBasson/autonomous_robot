@@ -1,7 +1,9 @@
-#include "rclcpp/rclcpp.hpp" // Include the ROS 2 C++ client library
-#include "sensor_msgs/msg/joy.hpp" // Include the Joy message type for joystick input
+#include "rclcpp/rclcpp.hpp" 
+#include "sensor_msgs/msg/joy.hpp" 
 #include "geometry_msgs/msg/twist.hpp" // Include the Twist message type for velocity commands
 
+//This code is a basic teleoperation node that reads joystick input and
+// publishes velocity commands to control a robot, General code for any robot 
 class MyJoy : public rclcpp::Node
 {
 public:

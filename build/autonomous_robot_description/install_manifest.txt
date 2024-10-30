@@ -7,6 +7,7 @@
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//launch/navigation_launch.py
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//launch/online_async_launch.py
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//launch/localization_AMCL_launch.py
+/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//launch/real_robot.launch.py
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//rviz/urdf_config.rviz
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/autonomous_robot_gazebo.xacro
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//urdf/ros2_control.xacro

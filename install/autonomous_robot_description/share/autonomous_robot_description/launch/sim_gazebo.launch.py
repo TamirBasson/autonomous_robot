@@ -95,7 +95,8 @@ def generate_launch_description():
         arguments=["-d", LaunchConfiguration("rviz_config_path")]
     )
 
-    # Twist Mux changing the topic name, instead of /cmd_vel it will be /diff_cont/cmd_vel_unstamped
+    # Twist Mux changing the topic name, instead of /cmd_vel it will be /diff_cont/cmd_vel_unstamped 
+    # and giving priority.
     twist_mux_params = os.path.join(get_package_share_directory('autonomous_robot_description'),'config','twist_mux.yaml')
     twist_mux = Node(
             package="twist_mux",

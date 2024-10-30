@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lslidar_msgs/srv/DataPort.srv
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module srv {
+    struct DataPort_Request {
+      int32 data_port;
+    };
+    struct DataPort_Response {
+      boolean result;
+    };
+  };
+};

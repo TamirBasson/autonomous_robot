@@ -1,0 +1,188 @@
+[0.009s] Invoking command in '/home/tamir/autonomous_robot/build/lslidar_driver': AMENT_PREFIX_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/turtlebot3_simulations:/home/tamir/install/turtlebot3_fake_node:/home/tamir/install/my_turtle_interfaces:/home/tamir/install/my_robot_interfaces:/home/tamir/install/my_robot_bringup:/home/tamir/install/my_robot_description:/home/tamir/install/my_cpp_pkg:/home/tamir/install/mauro_prototype_description:/home/tamir/install/aws_robomaker_small_warehouse_world:/home/tamir/install/autonomous_robot_description:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/home/tamir/install/my_turtle_interfaces/lib:/home/tamir/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tamir/autonomous_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/tamir/autonomous_robot/install/lslidar_driver
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.113s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.178s] -- Detecting C compile features
+[0.178s] -- Detecting C compile features - done
+[0.180s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.253s] -- Detecting CXX compile features
+[0.253s] -- Detecting CXX compile features - done
+[0.260s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.263s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.398s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.466s] -- Checking for module 'eigen3'
+[0.479s] --   Found eigen3, version 3.4.0
+[0.508s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.508s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.525s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.536s] -- Checking for module 'flann'
+[0.550s] --   Found flann, version 1.9.1
+[0.593s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.593s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.618s] -- Looking for pthread.h
+[0.683s] -- Looking for pthread.h - found
+[0.683s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.749s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.749s] -- Found Threads: TRUE  
+[0.751s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.756s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.875s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.876s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.879s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.886s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.898s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.906s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.991s] -- Found X11: /usr/include   
+[0.991s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.061s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.061s] -- Looking for gethostbyname
+[1.132s] -- Looking for gethostbyname - found
+[1.132s] -- Looking for connect
+[1.202s] -- Looking for connect - found
+[1.202s] -- Looking for remove
+[1.273s] -- Looking for remove - found
+[1.273s] -- Looking for shmat
+[1.336s] -- Looking for shmat - found
+[1.336s] -- Looking for IceConnectionNumber in ICE
+[1.399s] -- Looking for IceConnectionNumber in ICE - found
+[1.474s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.475s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.477s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.478s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.487s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.491s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.495s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.501s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.577s] -- Checking for module 'libusb-1.0'
+[1.592s] --   Found libusb-1.0, version 1.0.25
+[1.624s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.625s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.625s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.676s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.676s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.676s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.793s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.799s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.805s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.918s] -- Found Qhull version 8.0.2
+[2.031s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.145s] -- looking for PCL_COMMON
+[2.146s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.146s] -- looking for PCL_KDTREE
+[2.146s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.146s] -- looking for PCL_OCTREE
+[2.147s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.147s] -- looking for PCL_SEARCH
+[2.147s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.147s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.148s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.148s] -- looking for PCL_FILTERS
+[2.148s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.149s] -- looking for PCL_2D
+[2.149s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.149s] -- looking for PCL_GEOMETRY
+[2.149s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.149s] -- looking for PCL_IO
+[2.149s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.150s] -- looking for PCL_FEATURES
+[2.150s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.150s] -- looking for PCL_ML
+[2.151s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.151s] -- looking for PCL_SEGMENTATION
+[2.151s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.151s] -- looking for PCL_VISUALIZATION
+[2.152s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.152s] -- looking for PCL_SURFACE
+[2.153s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.153s] -- looking for PCL_REGISTRATION
+[2.153s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.153s] -- looking for PCL_KEYPOINTS
+[2.154s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.154s] -- looking for PCL_TRACKING
+[2.154s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.154s] -- looking for PCL_RECOGNITION
+[2.155s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.155s] -- looking for PCL_STEREO
+[2.156s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.156s] -- looking for PCL_APPS
+[2.156s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.157s] -- looking for PCL_IN_HAND_SCANNER
+[2.157s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.157s] -- looking for PCL_MODELER
+[2.157s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.157s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.157s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.157s] -- looking for PCL_OUTOFCORE
+[2.158s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.158s] -- looking for PCL_PEOPLE
+[2.158s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.159s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.159s] -- Found lslidar_msgs: 3.0.1 (/home/tamir/autonomous_robot/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[2.219s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.224s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.232s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.311s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.345s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.348s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.368s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.406s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[2.408s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.431s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.490s] -- Configuring done
+[2.526s] -- Generating done
+[2.527s] -- Build files have been written to: /home/tamir/autonomous_robot/build/lslidar_driver
+[2.539s] Invoked command in '/home/tamir/autonomous_robot/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/turtlebot3_simulations:/home/tamir/install/turtlebot3_fake_node:/home/tamir/install/my_turtle_interfaces:/home/tamir/install/my_robot_interfaces:/home/tamir/install/my_robot_bringup:/home/tamir/install/my_robot_description:/home/tamir/install/my_cpp_pkg:/home/tamir/install/mauro_prototype_description:/home/tamir/install/aws_robomaker_small_warehouse_world:/home/tamir/install/autonomous_robot_description:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/home/tamir/install/my_turtle_interfaces/lib:/home/tamir/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tamir/autonomous_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/tamir/autonomous_robot/install/lslidar_driver
+[2.540s] Invoking command in '/home/tamir/autonomous_robot/build/lslidar_driver': AMENT_PREFIX_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/turtlebot3_simulations:/home/tamir/install/turtlebot3_fake_node:/home/tamir/install/my_turtle_interfaces:/home/tamir/install/my_robot_interfaces:/home/tamir/install/my_robot_bringup:/home/tamir/install/my_robot_description:/home/tamir/install/my_cpp_pkg:/home/tamir/install/mauro_prototype_description:/home/tamir/install/aws_robomaker_small_warehouse_world:/home/tamir/install/autonomous_robot_description:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/home/tamir/install/my_turtle_interfaces/lib:/home/tamir/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tamir/autonomous_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tamir/autonomous_robot/build/lslidar_driver -- -j12 -l12
+[2.595s] [ 25%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cpp.o[0m
+[2.598s] [ 50%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cpp.o[0m
+[2.598s] [ 75%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cpp.o[0m
+[6.517s] In file included from [01m[K/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver/src/lslidar_driver_node.cpp:1[m[K:
+[6.518s] [01m[K/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver/include/lslidar_driver/lslidar_driver.h:128:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Klslidar_driver::c16_vertical_angle[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.518s]   128 |     static float [01;35m[Kc16_vertical_angle[m[K[16] = {-16.0f, 0.0f, -14.0f, 2.0f, -12.0f, 4.0f, -10.0f, 6.0f,
+[6.518s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[15.702s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[16.109s] [100%] Built target lslidar_driver_node
+[16.121s] Invoked command in '/home/tamir/autonomous_robot/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/turtlebot3_simulations:/home/tamir/install/turtlebot3_fake_node:/home/tamir/install/my_turtle_interfaces:/home/tamir/install/my_robot_interfaces:/home/tamir/install/my_robot_bringup:/home/tamir/install/my_robot_description:/home/tamir/install/my_cpp_pkg:/home/tamir/install/mauro_prototype_description:/home/tamir/install/aws_robomaker_small_warehouse_world:/home/tamir/install/autonomous_robot_description:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/home/tamir/install/my_turtle_interfaces/lib:/home/tamir/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tamir/autonomous_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tamir/autonomous_robot/build/lslidar_driver -- -j12 -l12
+[16.164s] Invoking command in '/home/tamir/autonomous_robot/build/lslidar_driver': AMENT_PREFIX_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/turtlebot3_simulations:/home/tamir/install/turtlebot3_fake_node:/home/tamir/install/my_turtle_interfaces:/home/tamir/install/my_robot_interfaces:/home/tamir/install/my_robot_bringup:/home/tamir/install/my_robot_description:/home/tamir/install/my_cpp_pkg:/home/tamir/install/mauro_prototype_description:/home/tamir/install/aws_robomaker_small_warehouse_world:/home/tamir/install/autonomous_robot_description:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/home/tamir/install/my_turtle_interfaces/lib:/home/tamir/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tamir/autonomous_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tamir/autonomous_robot/build/lslidar_driver
+[16.170s] -- Install configuration: "Release"
+[16.170s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/launch
+[16.170s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/launch/lslidar_cx_rviz_launch.py
+[16.170s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[16.170s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_rviz_launch.py
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/launch/lslidar_cx_launch.py
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/launch/lslidar_four_launch.py
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/params
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/params/lslidar_cx_right.yaml
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/params/lslidar_cx_front.yaml
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/params/lslidar_cx_rear.yaml
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/params/lslidar_cx.yaml
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/params/lslidar_cx_left.yaml
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/rviz_cfg
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/rviz_cfg/lslidar_cx.rviz
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/rviz_cfg/lslidar_double.rviz
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[16.171s] -- Set runtime path of "/home/tamir/autonomous_robot/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[16.171s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/package.dsv
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[16.172s] -- Installing: /home/tamir/autonomous_robot/install/lslidar_driver/share/lslidar_driver/package.xml
+[16.174s] Invoked command in '/home/tamir/autonomous_robot/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/turtlebot3_simulations:/home/tamir/install/turtlebot3_fake_node:/home/tamir/install/my_turtle_interfaces:/home/tamir/install/my_robot_interfaces:/home/tamir/install/my_robot_bringup:/home/tamir/install/my_robot_description:/home/tamir/install/my_cpp_pkg:/home/tamir/install/mauro_prototype_description:/home/tamir/install/aws_robomaker_small_warehouse_world:/home/tamir/install/autonomous_robot_description:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/turtlebot3_gazebo:/home/tamir/install/turtle_spawner:/home/tamir/install/turtle_controller:/home/tamir/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/install/lslidar_msgs/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/home/tamir/install/my_turtle_interfaces/lib:/home/tamir/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tamir/autonomous_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tamir/autonomous_robot/build/lslidar_driver

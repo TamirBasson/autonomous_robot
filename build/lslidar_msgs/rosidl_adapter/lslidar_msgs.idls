@@ -1,0 +1,11 @@
+/home/tamir/autonomous_robot/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarPacket.idl
+/home/tamir/autonomous_robot/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarPoint.idl
+/home/tamir/autonomous_robot/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarScan.idl
+/home/tamir/autonomous_robot/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/DataIp.idl
+/home/tamir/autonomous_robot/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/DataPort.idl
+/home/tamir/autonomous_robot/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/DestinationIp.idl
+/home/tamir/autonomous_robot/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/DevPort.idl
+/home/tamir/autonomous_robot/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/LslidarControl.idl
+/home/tamir/autonomous_robot/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/MotorControl.idl
+/home/tamir/autonomous_robot/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/MotorSpeed.idl
+/home/tamir/autonomous_robot/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/TimeService.idl

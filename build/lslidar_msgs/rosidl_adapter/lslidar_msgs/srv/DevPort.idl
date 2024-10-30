@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lslidar_msgs/srv/DevPort.srv
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module srv {
+    struct DevPort_Request {
+      int32 dev_port;
+    };
+    struct DevPort_Response {
+      boolean result;
+    };
+  };
+};

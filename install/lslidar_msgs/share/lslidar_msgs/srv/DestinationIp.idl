@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lslidar_msgs/srv/DestinationIp.srv
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module srv {
+    struct DestinationIp_Request {
+      string destination_ip;
+    };
+    struct DestinationIp_Response {
+      boolean result;
+    };
+  };
+};
