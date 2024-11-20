@@ -1,0 +1,35 @@
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake:66 (add_library):
+  Cannot find source file:
+
+    src/laserscan_to_pointcloud_node.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  CMakeLists.txt:7 (ament_auto_add_library)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_add_executable.cmake:66 (add_executable):
+  Cannot find source file:
+
+    src/dummy_pointcloud_publisher.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  CMakeLists.txt:21 (ament_auto_add_executable)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake:66 (add_library):
+  No SOURCES given to target: laserscan_to_pointcloud
+Call Stack (most recent call first):
+  CMakeLists.txt:7 (ament_auto_add_library)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_add_executable.cmake:66 (add_executable):
+  No SOURCES given to target: dummy_pointcloud_publisher
+Call Stack (most recent call first):
+  CMakeLists.txt:21 (ament_auto_add_executable)
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
