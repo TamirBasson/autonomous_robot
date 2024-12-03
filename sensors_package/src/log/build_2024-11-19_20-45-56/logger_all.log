@@ -1,0 +1,391 @@
+[0.066s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.066s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70f2260428c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70f22613b490>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70f22613b490>>)
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.180s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tamir/autonomous_robot/sensors_package/src'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/build) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/build) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/install) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/install) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/log) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/log) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/pointcloud_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/pointcloud_to_laserscan) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/pointcloud_to_laserscan) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/pointcloud_to_laserscan) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/pointcloud_to_laserscan) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/pointcloud_to_laserscan) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/pointcloud_to_laserscan) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/pointcloud_to_laserscan) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/pointcloud_to_laserscan) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'lidar_ws/pointcloud_to_laserscan' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver' with type 'ros.ament_cmake' and name 'lslidar_driver'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs' with type 'ros.ament_cmake' and name 'lslidar_msgs'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_mpu6050_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_mpu6050_driver) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_mpu6050_driver) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_mpu6050_driver) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_mpu6050_driver) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_mpu6050_driver) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_mpu6050_driver) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_mpu6050_driver) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_mpu6050_driver) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_mpu6050_driver' with type 'ros.ament_cmake' and name 'mpu6050driver'
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.224s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/tamir/autonomous_robot/install
+[0.225s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/tamir/turtlebot3_ws/install
+[0.225s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/tamir/ros2_ws/install
+[0.225s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/tamir/install
+[0.226s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/humble
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/sensors_package/src/build/lslidar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'mpu6050driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/sensors_package/src/ros2_mpu6050_driver', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/pointcloud_to_laserscan', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/sensors_package/src/build/lslidar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver', 'symlink_install': False, 'test_result_base': None}
+[0.256s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs' with build type 'ament_cmake'
+[0.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs'
+[0.259s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tamir/autonomous_robot/sensors_package/src/ros2_mpu6050_driver' with build type 'ament_cmake'
+[0.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tamir/autonomous_robot/sensors_package/src/ros2_mpu6050_driver'
+[0.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/pointcloud_to_laserscan' with build type 'ament_cmake'
+[0.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/pointcloud_to_laserscan'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/sensors_package/src/build/lslidar_msgs -- -j12 -l12
+[0.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver -- -j12 -l12
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan
+[0.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver -- -j12 -l12
+[0.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver
+[0.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpu6050driver)
+[0.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver
+[0.399s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver' for CMake module files
+[0.399s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver' for CMake config files
+[0.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpu6050driver', 'cmake_prefix_path')
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/hook/cmake_prefix_path.ps1'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/hook/cmake_prefix_path.dsv'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/hook/cmake_prefix_path.sh'
+[0.401s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/lib'
+[0.401s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/bin'
+[0.401s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/lib/pkgconfig/mpu6050driver.pc'
+[0.401s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/lib/python3.10/site-packages'
+[0.401s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/bin'
+[0.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/package.ps1'
+[0.402s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/package.dsv'
+[0.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/package.sh'
+[0.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/package.bash'
+[0.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/package.zsh'
+[0.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/colcon-core/packages/mpu6050driver)
+[0.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpu6050driver)
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver' for CMake module files
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver' for CMake config files
+[0.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpu6050driver', 'cmake_prefix_path')
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/hook/cmake_prefix_path.ps1'
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/hook/cmake_prefix_path.dsv'
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/hook/cmake_prefix_path.sh'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/lib'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/bin'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/lib/pkgconfig/mpu6050driver.pc'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/lib/python3.10/site-packages'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/bin'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/package.ps1'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/package.dsv'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/package.sh'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/package.bash'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/mpu6050driver/package.zsh'
+[0.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/sensors_package/src/install/mpu6050driver/share/colcon-core/packages/mpu6050driver)
+[0.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/sensors_package/src/build/lslidar_msgs -- -j12 -l12
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/sensors_package/src/build/lslidar_msgs
+[0.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[0.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/sensors_package/src/build/lslidar_msgs
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs' for CMake module files
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs' for CMake config files
+[0.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[0.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[0.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/lib'
+[0.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[0.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[0.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[0.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/bin'
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/lib/python3.10/site-packages'
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/bin'
+[0.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[0.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[0.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[0.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[0.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[0.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[1.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs' for CMake module files
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs' for CMake config files
+[1.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/lib'
+[1.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/bin'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/lib/python3.10/site-packages'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/bin'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[1.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[1.070s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver' with build type 'ament_cmake'
+[1.071s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_driver'
+[1.071s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/build/lslidar_driver': AMENT_PREFIX_PATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs:/home/tamir/autonomous_robot/install/sensors_package:/home/tamir/autonomous_robot/install/autonomous_robot_control:/home/tamir/autonomous_robot/install/robot_common_interfaces:/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world:/home/tamir/autonomous_robot/install/autonomous_robot_description:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/my_robot_description:/home/tamir/install/autonomous_robot_description:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/lib:/home/tamir/autonomous_robot/install/robot_common_interfaces/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tamir/autonomous_robot/sensors_package/src/build/lslidar_driver -- -j12 -l12
+[1.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs:/home/tamir/autonomous_robot/install/sensors_package:/home/tamir/autonomous_robot/install/autonomous_robot_control:/home/tamir/autonomous_robot/install/robot_common_interfaces:/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world:/home/tamir/autonomous_robot/install/autonomous_robot_description:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/my_robot_description:/home/tamir/install/autonomous_robot_description:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/lib:/home/tamir/autonomous_robot/install/robot_common_interfaces/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tamir/autonomous_robot/sensors_package/src/build/lslidar_driver -- -j12 -l12
+[1.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/build/lslidar_driver': AMENT_PREFIX_PATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs:/home/tamir/autonomous_robot/install/sensors_package:/home/tamir/autonomous_robot/install/autonomous_robot_control:/home/tamir/autonomous_robot/install/robot_common_interfaces:/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world:/home/tamir/autonomous_robot/install/autonomous_robot_description:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/my_robot_description:/home/tamir/install/autonomous_robot_description:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/lib:/home/tamir/autonomous_robot/install/robot_common_interfaces/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tamir/autonomous_robot/sensors_package/src/build/lslidar_driver
+[1.196s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver' for CMake module files
+[1.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs:/home/tamir/autonomous_robot/install/sensors_package:/home/tamir/autonomous_robot/install/autonomous_robot_control:/home/tamir/autonomous_robot/install/robot_common_interfaces:/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world:/home/tamir/autonomous_robot/install/autonomous_robot_description:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/my_robot_description:/home/tamir/install/autonomous_robot_description:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/lib:/home/tamir/autonomous_robot/install/robot_common_interfaces/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tamir/autonomous_robot/sensors_package/src/build/lslidar_driver
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver' for CMake config files
+[1.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/lib'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/bin'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/lib/python3.10/site-packages'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/bin'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/package.sh'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/package.bash'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[1.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[1.226s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver' for CMake module files
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver' for CMake config files
+[1.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/lib'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/bin'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/lib/python3.10/site-packages'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/bin'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/package.sh'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/package.bash'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[1.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/sensors_package/src/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[1.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan -- -j12 -l12
+[8.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan -- -j12 -l12
+[9.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan
+[9.057s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[9.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan
+[9.057s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan' for CMake module files
+[9.058s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan' for CMake config files
+[9.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[9.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[9.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[9.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[9.059s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/lib'
+[9.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[9.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[9.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[9.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[9.060s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/bin'
+[9.060s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[9.060s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[9.060s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/bin'
+[9.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[9.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[9.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[9.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[9.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[9.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[9.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[9.092s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan' for CMake module files
+[9.092s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan' for CMake config files
+[9.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[9.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[9.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[9.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[9.094s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/lib'
+[9.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[9.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[9.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[9.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[9.096s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/bin'
+[9.096s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[9.096s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[9.096s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/bin'
+[9.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[9.097s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[9.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[9.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[9.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[9.099s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[9.099s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.099s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.099s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.100s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.105s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.105s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.105s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.120s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.120s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/autonomous_robot/sensors_package/src/install/local_setup.ps1'
+[9.121s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tamir/autonomous_robot/sensors_package/src/install/_local_setup_util_ps1.py'
+[9.123s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/autonomous_robot/sensors_package/src/install/setup.ps1'
+[9.125s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/autonomous_robot/sensors_package/src/install/local_setup.sh'
+[9.125s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tamir/autonomous_robot/sensors_package/src/install/_local_setup_util_sh.py'
+[9.126s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/autonomous_robot/sensors_package/src/install/setup.sh'
+[9.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/autonomous_robot/sensors_package/src/install/local_setup.bash'
+[9.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/autonomous_robot/sensors_package/src/install/setup.bash'
+[9.130s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/autonomous_robot/sensors_package/src/install/local_setup.zsh'
+[9.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/autonomous_robot/sensors_package/src/install/setup.zsh'

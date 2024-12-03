@@ -1,1 +1,1 @@
-rclpy;rclcpp;sensor_msgs;cv2;ament_lint_auto;ament_lint_common
+rclpy;rclcpp;sensor_msgs;cv2;python3;ros2launch;ros2run;ament_lint_auto;ament_lint_common

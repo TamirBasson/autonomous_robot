@@ -1,0 +1,47 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found robot_common_interfaces: 0.0.0 (/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tamir/autonomous_robot/autonomous_robot_control/build/joystick
+[35m[1mConsolidate compiler generated dependencies of target joystick[0m
+[35m[1mConsolidate compiler generated dependencies of target teleop_joy_node[0m
+[ 33%] Built target joystick
+[ 66%] Built target teleop_joy_node
+[35m[1mConsolidate compiler generated dependencies of target prototype_joy_driver[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/prototype_joy_driver.dir/src/prototype_joy_driver.cpp.o[0m
+[100%] [32m[1mLinking CXX executable prototype_joy_driver[0m
+[100%] Built target prototype_joy_driver
+-- Install configuration: ""
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib/joystick/teleop_joy_node
+-- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib/joystick/prototype_joy_driver
+-- Set runtime path of "/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib/joystick/prototype_joy_driver" to ""
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/include/joystick
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/include/joystick/joystick
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/include/joystick/joystick/joy_compute_control.hpp
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick//launch
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick//launch/joystick.launch.py
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/ament_index/resource_index/package_run_dependencies/joystick
+-- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/ament_index/resource_index/parent_prefix_path/joystick
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/environment/ament_prefix_path.sh
+-- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/environment/path.sh
+-- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/environment/path.dsv
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/local_setup.bash
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/local_setup.sh
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/local_setup.zsh
+-- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/local_setup.dsv
+-- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.dsv
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/ament_index/resource_index/packages/joystick
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/cmake/joystickConfig.cmake
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/cmake/joystickConfig-version.cmake
+-- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.xml

@@ -1,0 +1,244 @@
+[0.082s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.082s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7669b5e1ebc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7669b5f0b790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7669b5f0b790>>)
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.187s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tamir/autonomous_robot/autonomous_robot_control'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_odom) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_odom) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_odom) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_odom) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_odom) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_odom) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_odom) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_odom) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_odom) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/calc_odom' with type 'ros.ament_python' and name 'calc_odom'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_hardware) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_hardware) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_hardware) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_hardware) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_hardware) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_hardware) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_hardware) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_hardware) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_hardware' with type 'ros.ament_python' and name 'control_hardware'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick' with type 'ros.ament_cmake' and name 'joystick'
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.223s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/tamir/autonomous_robot/install
+[0.224s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/tamir/turtlebot3_ws/install
+[0.224s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/tamir/ros2_ws/install
+[0.225s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/tamir/install
+[0.226s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/humble
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'calc_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/autonomous_robot_control/build/calc_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/autonomous_robot_control/src/calc_odom', 'symlink_install': False, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'control_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'joystick' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/autonomous_robot_control/build/joystick', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick', 'symlink_install': False, 'test_result_base': None}
+[0.260s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.261s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.261s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tamir/autonomous_robot/autonomous_robot_control/src/calc_odom' with build type 'ament_python'
+[0.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('calc_odom', 'ament_prefix_path')
+[0.265s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/share/calc_odom/hook/ament_prefix_path.ps1'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/share/calc_odom/hook/ament_prefix_path.dsv'
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/share/calc_odom/hook/ament_prefix_path.sh'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.271s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware' with build type 'ament_python'
+[0.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_hardware', 'ament_prefix_path')
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/control_hardware/hook/ament_prefix_path.ps1'
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/control_hardware/hook/ament_prefix_path.dsv'
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/control_hardware/hook/ament_prefix_path.sh'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick' with build type 'ament_cmake'
+[0.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.456s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tamir/autonomous_robot/autonomous_robot_control/src/calc_odom'
+[0.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.636s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware'
+[0.636s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.636s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/autonomous_robot_control/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/autonomous_robot_control/build/joystick -- -j12 -l12
+[0.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware': PYTHONPATH=/home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control_hardware build --build-base /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build install --record /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/install.log --single-version-externally-managed install_data
+[0.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/calc_odom': PYTHONPATH=/home/tamir/autonomous_robot/autonomous_robot_control/build/calc_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/calc_odom build --build-base /home/tamir/autonomous_robot/autonomous_robot_control/build/calc_odom/build install --record /home/tamir/autonomous_robot/autonomous_robot_control/build/calc_odom/install.log --single-version-externally-managed install_data
+[1.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware' returned '0': PYTHONPATH=/home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control_hardware build --build-base /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build install --record /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/install.log --single-version-externally-managed install_data
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware' for CMake module files
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware' for CMake config files
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/bin'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/pkgconfig/control_hardware.pc'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages'
+[1.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_hardware', 'pythonpath')
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/control_hardware/hook/pythonpath.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/control_hardware/hook/pythonpath.dsv'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/control_hardware/hook/pythonpath.sh'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/bin'
+[1.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_hardware)
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/control_hardware/package.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/control_hardware/package.dsv'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/control_hardware/package.sh'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/control_hardware/package.bash'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/control_hardware/package.zsh'
+[1.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/colcon-core/packages/control_hardware)
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom' for CMake module files
+[1.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/calc_odom' returned '0': PYTHONPATH=/home/tamir/autonomous_robot/autonomous_robot_control/build/calc_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/calc_odom build --build-base /home/tamir/autonomous_robot/autonomous_robot_control/build/calc_odom/build install --record /home/tamir/autonomous_robot/autonomous_robot_control/build/calc_odom/install.log --single-version-externally-managed install_data
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom' for CMake config files
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/lib'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/bin'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/lib/pkgconfig/calc_odom.pc'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/lib/python3.10/site-packages'
+[1.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('calc_odom', 'pythonpath')
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/share/calc_odom/hook/pythonpath.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/share/calc_odom/hook/pythonpath.dsv'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/share/calc_odom/hook/pythonpath.sh'
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/bin'
+[1.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(calc_odom)
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/share/calc_odom/package.ps1'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/share/calc_odom/package.dsv'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/share/calc_odom/package.sh'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/share/calc_odom/package.bash'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/share/calc_odom/package.zsh'
+[1.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/share/colcon-core/packages/calc_odom)
+[6.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/autonomous_robot_control/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/autonomous_robot_control/build/joystick -- -j12 -l12
+[7.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/autonomous_robot_control/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/autonomous_robot_control/build/joystick
+[7.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick)
+[7.026s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick' for CMake module files
+[7.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/autonomous_robot_control/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/autonomous_robot_control/build/joystick
+[7.027s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick' for CMake config files
+[7.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick', 'cmake_prefix_path')
+[7.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/hook/cmake_prefix_path.ps1'
+[7.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/hook/cmake_prefix_path.dsv'
+[7.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/hook/cmake_prefix_path.sh'
+[7.029s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib'
+[7.029s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/bin'
+[7.029s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib/pkgconfig/joystick.pc'
+[7.029s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib/python3.10/site-packages'
+[7.030s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/bin'
+[7.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.ps1'
+[7.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.dsv'
+[7.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.sh'
+[7.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.bash'
+[7.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.zsh'
+[7.032s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/colcon-core/packages/joystick)
+[7.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick)
+[7.076s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick' for CMake module files
+[7.076s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick' for CMake config files
+[7.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick', 'cmake_prefix_path')
+[7.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/hook/cmake_prefix_path.ps1'
+[7.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/hook/cmake_prefix_path.dsv'
+[7.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/hook/cmake_prefix_path.sh'
+[7.079s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib'
+[7.079s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/bin'
+[7.079s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib/pkgconfig/joystick.pc'
+[7.079s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib/python3.10/site-packages'
+[7.079s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/bin'
+[7.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.ps1'
+[7.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.dsv'
+[7.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.sh'
+[7.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.bash'
+[7.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.zsh'
+[7.082s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/colcon-core/packages/joystick)
+[7.083s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.083s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.083s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.083s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.091s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.091s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.091s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.119s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.119s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/autonomous_robot/autonomous_robot_control/install/local_setup.ps1'
+[7.120s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tamir/autonomous_robot/autonomous_robot_control/install/_local_setup_util_ps1.py'
+[7.122s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/autonomous_robot/autonomous_robot_control/install/setup.ps1'
+[7.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/autonomous_robot/autonomous_robot_control/install/local_setup.sh'
+[7.125s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tamir/autonomous_robot/autonomous_robot_control/install/_local_setup_util_sh.py'
+[7.125s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/autonomous_robot/autonomous_robot_control/install/setup.sh'
+[7.127s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/autonomous_robot/autonomous_robot_control/install/local_setup.bash'
+[7.128s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/autonomous_robot/autonomous_robot_control/install/setup.bash'
+[7.129s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/autonomous_robot/autonomous_robot_control/install/local_setup.zsh'
+[7.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/autonomous_robot/autonomous_robot_control/install/setup.zsh'

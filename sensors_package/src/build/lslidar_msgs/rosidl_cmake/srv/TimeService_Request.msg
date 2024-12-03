@@ -1,0 +1,2 @@
+string time_service_mode
+string ntp_ip

@@ -1,0 +1,8 @@
+[01m[K/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/src/joy_compute_control.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kautonomous_robot_control/joy_compute_control.hpp: No such file or directory
+    1 | #include [01;31m[K"autonomous_robot_control/joy_compute_control.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/joystick.dir/build.make:76: CMakeFiles/joystick.dir/src/joy_compute_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/joystick.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

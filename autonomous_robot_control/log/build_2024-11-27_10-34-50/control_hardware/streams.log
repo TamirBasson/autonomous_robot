@@ -1,0 +1,45 @@
+[0.617s] Invoking command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware': PYTHONPATH=/home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control_hardware build --build-base /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build install --record /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/install.log --single-version-externally-managed install_data
+[0.787s] running egg_info
+[0.787s] creating ../../build/control_hardware/control_hardware.egg-info
+[0.788s] writing ../../build/control_hardware/control_hardware.egg-info/PKG-INFO
+[0.788s] writing dependency_links to ../../build/control_hardware/control_hardware.egg-info/dependency_links.txt
+[0.788s] writing entry points to ../../build/control_hardware/control_hardware.egg-info/entry_points.txt
+[0.788s] writing requirements to ../../build/control_hardware/control_hardware.egg-info/requires.txt
+[0.788s] writing top-level names to ../../build/control_hardware/control_hardware.egg-info/top_level.txt
+[0.788s] writing manifest file '../../build/control_hardware/control_hardware.egg-info/SOURCES.txt'
+[0.789s] reading manifest file '../../build/control_hardware/control_hardware.egg-info/SOURCES.txt'
+[0.789s] writing manifest file '../../build/control_hardware/control_hardware.egg-info/SOURCES.txt'
+[0.789s] running build
+[0.790s] running build_py
+[0.790s] creating /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build
+[0.790s] creating /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build/lib
+[0.790s] creating /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build/lib/control_hardware
+[0.790s] copying control_hardware/mux.py -> /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build/lib/control_hardware
+[0.790s] copying control_hardware/pwm2GPIO.py -> /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build/lib/control_hardware
+[0.790s] copying control_hardware/__init__.py -> /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build/lib/control_hardware
+[0.790s] copying control_hardware/cmd2pwm.py -> /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build/lib/control_hardware
+[0.790s] running install
+[0.791s] running install_lib
+[0.791s] creating /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages/control_hardware
+[0.791s] copying /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build/lib/control_hardware/mux.py -> /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages/control_hardware
+[0.791s] copying /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build/lib/control_hardware/pwm2GPIO.py -> /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages/control_hardware
+[0.791s] copying /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build/lib/control_hardware/__init__.py -> /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages/control_hardware
+[0.792s] copying /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build/lib/control_hardware/cmd2pwm.py -> /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages/control_hardware
+[0.792s] byte-compiling /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages/control_hardware/mux.py to mux.cpython-310.pyc
+[0.792s] byte-compiling /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages/control_hardware/pwm2GPIO.py to pwm2GPIO.cpython-310.pyc
+[0.792s] byte-compiling /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages/control_hardware/__init__.py to __init__.cpython-310.pyc
+[0.792s] byte-compiling /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages/control_hardware/cmd2pwm.py to cmd2pwm.cpython-310.pyc
+[0.793s] running install_data
+[0.793s] creating /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/ament_index
+[0.793s] creating /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/ament_index/resource_index
+[0.793s] creating /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/ament_index/resource_index/packages
+[0.793s] copying resource/control_hardware -> /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/ament_index/resource_index/packages
+[0.793s] copying package.xml -> /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/share/control_hardware
+[0.793s] running install_egg_info
+[0.794s] Copying ../../build/control_hardware/control_hardware.egg-info to /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages/control_hardware-0.0.0-py3.10.egg-info
+[0.795s] running install_scripts
+[0.808s] Installing cmd2pwm script to /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/control_hardware
+[0.808s] Installing mux script to /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/control_hardware
+[0.808s] Installing pwm2GPIO script to /home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/control_hardware
+[0.808s] writing list of installed files to '/home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/install.log'
+[0.831s] Invoked command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware' returned '0': PYTHONPATH=/home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control_hardware build --build-base /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/build install --record /home/tamir/autonomous_robot/autonomous_robot_control/build/control_hardware/install.log --single-version-externally-managed install_data

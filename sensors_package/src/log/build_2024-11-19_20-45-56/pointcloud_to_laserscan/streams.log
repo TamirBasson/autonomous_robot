@@ -1,0 +1,86 @@
+[0.012s] Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.141s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.202s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.285s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.398s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.572s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.577s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.583s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.606s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.641s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.644s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.662s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.669s] -- Looking for pthread.h
+[0.730s] -- Looking for pthread.h - found
+[0.730s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.788s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.789s] -- Found Threads: TRUE  
+[0.940s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.957s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.957s] -- Configured cppcheck include dirs: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/pointcloud_to_laserscan/include
+[0.957s] -- Configured cppcheck exclude dirs and/or files: 
+[0.959s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.959s] -- Configured cpplint exclude dirs and/or files: 
+[0.959s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.960s] -- Added test 'lint_cmake' to check CMake code style
+[0.961s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.962s] -- Added test 'uncrustify' to check C / C++ code style
+[0.962s] -- Configured uncrustify additional arguments: 
+[0.962s] -- Added test 'xmllint' to check XML markup files
+[0.964s] -- Configuring done
+[0.974s] -- Generating done
+[0.975s] -- Build files have been written to: /home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan
+[0.980s] Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan
+[0.981s] Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan -- -j12 -l12
+[1.038s] [ 25%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[1.040s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[2.984s] [ 75%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[3.074s] [ 75%] Built target pointcloud_to_laserscan_node
+[8.330s] [100%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[8.720s] [100%] Built target pointcloud_to_laserscan
+[8.732s] Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan -- -j12 -l12
+[8.770s] Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan
+[8.780s] -- Install configuration: ""
+[8.781s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[8.781s] -- Set runtime path of "/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node" to ""
+[8.781s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/include
+[8.781s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan
+[8.781s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[8.781s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[8.781s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[8.781s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[8.782s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[8.788s] -- Set runtime path of "/home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so" to ""
+[8.788s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch
+[8.788s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[8.788s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[8.788s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[8.788s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[8.788s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[8.788s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[8.788s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[8.788s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[8.788s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[8.789s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[8.789s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[8.789s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[8.789s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[8.789s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[8.789s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.789s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.789s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[8.789s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[8.789s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[8.789s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[8.791s] Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/install/calc_odom:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/sensors_package/src/build/pointcloud_to_laserscan

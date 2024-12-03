@@ -1,0 +1,17 @@
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/lib/sensors_package/camera_rgb_publisher.py
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/launch/launch/camera_launch.py
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/ament_index/resource_index/package_run_dependencies/sensors_package
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/ament_index/resource_index/parent_prefix_path/sensors_package
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/environment/ament_prefix_path.sh
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/environment/ament_prefix_path.dsv
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/environment/path.sh
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/environment/path.dsv
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/local_setup.bash
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/local_setup.sh
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/local_setup.zsh
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/local_setup.dsv
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/package.dsv
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/ament_index/resource_index/packages/sensors_package
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/cmake/sensors_packageConfig.cmake
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/cmake/sensors_packageConfig-version.cmake
+/home/tamir/autonomous_robot/sensors_package/install/sensors_package/share/sensors_package/package.xml

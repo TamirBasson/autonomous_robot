@@ -1,7 +1,0 @@
-[01m[K/home/tamir/autonomous_robot/autonomous_robot_control/src/prototype_joy_controller_class.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kprototype_joy_controller_class.hpp: No such file or directory
-    2 | #include [01;31m[K"prototype_joy_controller_class.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/autonomous_robot_control.dir/build.make:76: CMakeFiles/autonomous_robot_control.dir/src/prototype_joy_controller_class.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/autonomous_robot_control.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

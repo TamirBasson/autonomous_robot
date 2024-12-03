@@ -5,6 +5,7 @@ controller_manager:
 
     diff_cont:
       type: diff_drive_controller/DiffDriveController
+       
 
     joint_broad:
       type: joint_state_broadcaster/JointStateBroadcaster
@@ -12,7 +13,7 @@ controller_manager:
 
 diff_cont:
   ros__parameters:
-
+    odom_topic: "/odom"
     publish_rate: 50.0 #Hz
 
     base_frame_id: base_footprint

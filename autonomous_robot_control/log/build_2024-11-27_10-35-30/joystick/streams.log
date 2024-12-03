@@ -1,0 +1,37 @@
+[0.350s] Invoking command in '/home/tamir/autonomous_robot/autonomous_robot_control/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/autonomous_robot_control/build/joystick -- -j12 -l12
+[0.385s] [35m[1mConsolidate compiler generated dependencies of target teleop_joy_node[0m
+[0.398s] [ 16%] [32mBuilding CXX object CMakeFiles/joystick.dir/src/joy_compute_control.cpp.o[0m
+[0.403s] [ 50%] Built target teleop_joy_node
+[0.499s] [ 66%] [32m[1mLinking CXX static library libjoystick.a[0m
+[0.533s] [ 66%] Built target joystick
+[0.553s] [ 83%] [32mBuilding CXX object CMakeFiles/prototype_joy_driver.dir/src/prototype_joy_driver.cpp.o[0m
+[6.006s] [100%] [32m[1mLinking CXX executable prototype_joy_driver[0m
+[6.300s] [100%] Built target prototype_joy_driver
+[6.313s] Invoked command in '/home/tamir/autonomous_robot/autonomous_robot_control/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/autonomous_robot_control/build/joystick -- -j12 -l12
+[6.376s] Invoking command in '/home/tamir/autonomous_robot/autonomous_robot_control/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/autonomous_robot_control/build/joystick
+[6.387s] -- Install configuration: ""
+[6.387s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib/joystick/teleop_joy_node
+[6.390s] -- Set runtime path of "/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib/joystick/teleop_joy_node" to ""
+[6.390s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib/joystick/prototype_joy_driver
+[6.393s] -- Set runtime path of "/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/lib/joystick/prototype_joy_driver" to ""
+[6.393s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/include/joystick
+[6.393s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/include/joystick/joystick
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/include/joystick/joystick/joy_compute_control.hpp
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick//launch
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick//launch/joystick.launch.py
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/ament_index/resource_index/package_run_dependencies/joystick
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/ament_index/resource_index/parent_prefix_path/joystick
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/environment/ament_prefix_path.sh
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/environment/ament_prefix_path.dsv
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/environment/path.sh
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/environment/path.dsv
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/local_setup.bash
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/local_setup.sh
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/local_setup.zsh
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/local_setup.dsv
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.dsv
+[6.394s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/ament_index/resource_index/packages/joystick
+[6.395s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/cmake/joystickConfig.cmake
+[6.395s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/cmake/joystickConfig-version.cmake
+[6.395s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/share/joystick/package.xml
+[6.396s] Invoked command in '/home/tamir/autonomous_robot/autonomous_robot_control/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/autonomous_robot_control/build/joystick

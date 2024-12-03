@@ -1,0 +1,9 @@
+/home/tamir/autonomous_robot/sensors_package/build/sensors_package/CMakeFiles/uninstall.dir
+/home/tamir/autonomous_robot/sensors_package/build/sensors_package/CMakeFiles/sensors_package_uninstall.dir
+/home/tamir/autonomous_robot/sensors_package/build/sensors_package/CMakeFiles/test.dir
+/home/tamir/autonomous_robot/sensors_package/build/sensors_package/CMakeFiles/edit_cache.dir
+/home/tamir/autonomous_robot/sensors_package/build/sensors_package/CMakeFiles/rebuild_cache.dir
+/home/tamir/autonomous_robot/sensors_package/build/sensors_package/CMakeFiles/list_install_components.dir
+/home/tamir/autonomous_robot/sensors_package/build/sensors_package/CMakeFiles/install.dir
+/home/tamir/autonomous_robot/sensors_package/build/sensors_package/CMakeFiles/install/local.dir
+/home/tamir/autonomous_robot/sensors_package/build/sensors_package/CMakeFiles/install/strip.dir

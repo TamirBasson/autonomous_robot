@@ -13,13 +13,15 @@ slam_toolbox:
     odom_frame: odom
     map_frame: map
     base_frame: base_footprint
-    scan_topic: /scan
+    scan_topic: /cx/scan  #/scan check this!
     use_map_saver: true
-    mode: localization #  mapping
+    mode: mapping  #localization mapping/  mapping
 
     # if you'd like to immediately start continuing a map at a given pose
     # or at the dock, but they are mutually exclusive, if pose is given
     # will use pose
+
+    #change this before running Slam toolbox to the correct path !!!!!!!!!!!!!!!
     map_file_name: /home/tamir/autonomous_robot/autonomous_robot_description/ware_house_slam_serialize
     # map_start_pose: [0.0, 0.0, 0.0]
     map_start_at_dock: true #start at the first pose

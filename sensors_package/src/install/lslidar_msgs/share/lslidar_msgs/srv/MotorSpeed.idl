@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lslidar_msgs/srv/MotorSpeed.srv
+// generated code does not contain a copyright notice
+
+
+module lslidar_msgs {
+  module srv {
+    struct MotorSpeed_Request {
+      int32 motor_speed;
+    };
+    struct MotorSpeed_Response {
+      boolean result;
+    };
+  };
+};

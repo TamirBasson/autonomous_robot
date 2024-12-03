@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_common_interfaces",
+  "non_idl_tuples": [
+    "/home/tamir/autonomous_robot/robot_common_interfaces:msg/SerComStruct.msg"
+  ]
+}

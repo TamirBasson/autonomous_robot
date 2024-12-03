@@ -1,0 +1,16 @@
+{
+  "package_name": "lslidar_msgs",
+  "non_idl_tuples": [
+    "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarPacket.msg",
+    "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarPoint.msg",
+    "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarScan.msg",
+    "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs:srv/DataIp.srv",
+    "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs:srv/DataPort.srv",
+    "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs:srv/DestinationIp.srv",
+    "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs:srv/DevPort.srv",
+    "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs:srv/LslidarControl.srv",
+    "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs:srv/MotorControl.srv",
+    "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs:srv/MotorSpeed.srv",
+    "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/src/Lslidar_ROS2_driver/lslidar_msgs:srv/TimeService.srv"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tamir/autonomous_robot/install/autonomous_robot_control/include/**",
+        "/home/tamir/autonomous_robot/install/robot_common_interfaces/include/**",
+        "/home/tamir/ros2_ws/install/my_turtle_interfaces/include/**",
+        "/home/tamir/ros2_ws/install/my_robot_interfaces/include/**",
+        "/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/tamir/autonomous_robot/autonomous_robot_control/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
