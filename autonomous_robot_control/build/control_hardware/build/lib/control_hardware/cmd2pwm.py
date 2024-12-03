@@ -13,7 +13,7 @@ class CmdVelToPwmNode(Node):
         self.publisher = self.create_publisher(SerComStruct, 'motor_throttle_control', 10)
 
         # Parameters
-        self.wheel_base = 0.7  # Distance between wheels (meters)
+        self.wheel_base = 0.475  # Distance between wheels (meters)
 
     def cmd_vel_callback(self, msg):
         """Callback for processing Twist messages and converting to PWM commands."""

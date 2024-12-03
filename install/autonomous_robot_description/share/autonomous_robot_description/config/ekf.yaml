@@ -28,6 +28,15 @@ ekf_filter_node:
   odom0_differential: false
   odom0_queue_size: 10
 
+  # Laser scan data
+  laser_scan0: /scan  # Replace with your actual laser scan topic
+  laser_scan0_config: [true, true, false,  # X, Y
+                       false, false, false, # Z, Roll, Pitch
+                       false, false, true,  # Yaw, Linear Velocity X, Y
+                       false, false, false] # Angular Velocity Z
+  laser_scan0_differential: false
+  laser_scan0_queue_size: 10
+
   # Noise covariances
   process_noise_covariance: [0.1, 0, 0, 0, 0, 0,
                              0, 0.1, 0, 0, 0, 0,

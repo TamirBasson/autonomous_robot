@@ -25,8 +25,8 @@ class OdometryPublisher(Node):
         self.br = TransformBroadcaster(self)
 
         # Robot parameters
-        self.wheel_base = 0.7  # Distance between wheels (meters)
-        self.wheel_radius = 0.16  # Wheel radius (meters)
+        self.wheel_base = 0.475  # Distance between wheels (meters)
+        self.wheel_radius = 0.17  # Wheel radius (meters)
 
         # Initial odometry
         self.x = 0.0

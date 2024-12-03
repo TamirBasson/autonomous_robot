@@ -1,5 +1,0 @@
-[console_scripts]
-cmd2pwm = control_hardware.cmd2pwm:main
-mux = control_hardware.mux:main
-pwm2GPIO = control_hardware.pwm2GPIO:main
-

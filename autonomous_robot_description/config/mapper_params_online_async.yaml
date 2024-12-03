@@ -13,7 +13,7 @@ slam_toolbox:
     odom_frame: odom
     map_frame: map
     base_frame: base_footprint
-    scan_topic: /cx/scan  #/scan check this!
+    scan_topic: /scan  #/scan check this!
     use_map_saver: true
     mode: mapping  #localization mapping/  mapping
 
