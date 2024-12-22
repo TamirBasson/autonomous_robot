@@ -5,9 +5,9 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Image1/Topic1
+        - /LaserScan1
         - /LaserScan1/Topic1
         - /Map1
-        - /Map1/Status1
         - /Map1/Topic1
       Splitter Ratio: 0.5
     Tree Height: 549
@@ -96,6 +96,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         left_wheel_link:
           Alpha: 1
           Show Axes: false
@@ -146,11 +151,11 @@ Visualization Manager:
           Value: true
         front_wheel_link:
           Value: true
+        imu_link:
+          Value: true
         left_wheel_link:
           Value: true
         lidar_link:
-          Value: true
-        map:
           Value: true
         odom:
           Value: true
@@ -166,8 +171,6 @@ Visualization Manager:
       Show Axes: true
       Show Names: false
       Tree:
-        map:
-          {}
         odom:
           base_footprint:
             base_link:
@@ -177,6 +180,8 @@ Visualization Manager:
               front_hinge:
                 front_wheel_link:
                   {}
+              imu_link:
+                {}
               left_wheel_link:
                 {}
               lidar_link:
@@ -224,12 +229,12 @@ Visualization Manager:
       Position Transformer: XYZ
       Selectable: true
       Size (Pixels): 3
-      Size (m): 0.15000000074505806
+      Size (m): 0.15000000596046448
       Style: Flat Squares
       Topic:
         Depth: 5
         Durability Policy: Volatile
-        Filter size: 10
+        Filter size: 100
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /scan
@@ -245,7 +250,7 @@ Visualization Manager:
       Topic:
         Depth: 5
         Durability Policy: Volatile
-        Filter size: 10
+        Filter size: 100
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /map

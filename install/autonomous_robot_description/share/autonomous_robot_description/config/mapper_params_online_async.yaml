@@ -22,7 +22,7 @@ slam_toolbox:
     # will use pose
 
     #change this before running Slam toolbox to the correct path !!!!!!!!!!!!!!!
-    map_file_name: /home/tamir/autonomous_robot/autonomous_robot_description/ware_house_slam_serialize
+    #map_file_name: /home/tamir/autonomous_robot/autonomous_robot_description/ware_house_slam_serialize
     # map_start_pose: [0.0, 0.0, 0.0]
     map_start_at_dock: true #start at the first pose
 

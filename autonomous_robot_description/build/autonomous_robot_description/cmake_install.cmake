@@ -48,7 +48,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/tamir/autonomous_robot/autonomous_robot_description/launch"
     "/home/tamir/autonomous_robot/autonomous_robot_description/rviz"
     "/home/tamir/autonomous_robot/autonomous_robot_description/urdf"
-    "/home/tamir/autonomous_robot/autonomous_robot_description/worlds"
     )
 endif()
 

@@ -31,17 +31,17 @@
         <sensor name="laser_link" type="ray">
             <pose> 0 0 0 0 0 0 </pose>
             <visualize>true</visualize>
-            <update_rate>5.0</update_rate>
+            <update_rate>20.0</update_rate>
             <ray>
                 <scan>
                     <horizontal>
-                        <samples>90</samples>
+                        <samples>500</samples>
                         <min_angle>-3.14</min_angle>
                         <max_angle>3.14</max_angle>
                     </horizontal>
                 </scan>
                 <range>
-                    <min>0.3</min>
+                    <min>0.5</min>
                     <max>10</max>
                 </range>
             </ray>

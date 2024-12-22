@@ -1,0 +1,544 @@
+[0.076s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.077s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x766f95633400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x766f95727fd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x766f95727fd0>>)
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.182s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tamir/autonomous_robot'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/build) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/build) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/build) ignored
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/install) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/install) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/install) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/log) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/log) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/log) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/calc_odom) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/calc_odom) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/calc_odom) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/calc_odom) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/calc_odom) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/calc_odom) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/calc_odom) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/calc_odom) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/calc_odom) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'autonomous_robot_control/src/calc_odom' with type 'ros.ament_python' and name 'calc_odom'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/control_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/control_hardware) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/control_hardware) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/control_hardware) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/control_hardware) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/control_hardware) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/control_hardware) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/control_hardware) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/control_hardware) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'autonomous_robot_control/src/control_hardware' with type 'ros.ament_python' and name 'control_hardware'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/joystick) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/joystick) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/joystick) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/joystick) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/joystick) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/joystick) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/joystick) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/joystick) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_control/src/joystick) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'autonomous_robot_control/src/joystick' with type 'ros.ament_cmake' and name 'joystick'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_description) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_description) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_description) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_description) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_description) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_description) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_description) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_robot_description) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'autonomous_robot_description' with type 'ros.ament_cmake' and name 'autonomous_robot_description'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-warehouse-world) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-warehouse-world) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-warehouse-world) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-warehouse-world) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-warehouse-world) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-warehouse-world) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-warehouse-world) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-warehouse-world) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-warehouse-world) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-robomaker-small-warehouse-world' with type 'ros.ament_cmake' and name 'aws_robomaker_small_warehouse_world'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(robot_common_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(robot_common_interfaces) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(robot_common_interfaces) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(robot_common_interfaces) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(robot_common_interfaces) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(robot_common_interfaces) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(robot_common_interfaces) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(robot_common_interfaces) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(robot_common_interfaces) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_common_interfaces' with type 'ros.ament_cmake' and name 'robot_common_interfaces'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_12_10-16_43_47) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sensors_package) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sensors_package) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sensors_package) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sensors_package) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sensors_package) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sensors_package) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sensors_package) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sensors_package) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(sensors_package) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'sensors_package' with type 'ros.ament_cmake' and name 'sensors_package'
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.221s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/tamir/autonomous_robot/install
+[0.222s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tamir/autonomous_robot/autonomous_robot_description/install
+[0.222s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/tamir/install
+[0.222s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/tamir/turtlebot3_ws/install
+[0.223s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/tamir/ros2_ws/install
+[0.223s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/tamir/autonomous_robot/autonomous_robot_control/install
+[0.223s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install
+[0.224s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/humble
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'autonomous_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'autonomous_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'autonomous_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'autonomous_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'autonomous_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'autonomous_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'autonomous_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'autonomous_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'autonomous_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'autonomous_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/build/autonomous_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/install/autonomous_robot_description', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/autonomous_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'aws_robomaker_small_warehouse_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/aws-robomaker-small-warehouse-world', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'control_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'control_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/build/control_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/install/control_hardware', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'robot_common_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'robot_common_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'robot_common_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'robot_common_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'robot_common_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'robot_common_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'robot_common_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'robot_common_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'robot_common_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'robot_common_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/build/robot_common_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/install/robot_common_interfaces', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/robot_common_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'sensors_package' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'sensors_package' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'sensors_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'sensors_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'sensors_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'sensors_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'sensors_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'sensors_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'sensors_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'sensors_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/build/sensors_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/install/sensors_package', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/sensors_package', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'calc_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'calc_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/build/calc_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/install/calc_odom', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/autonomous_robot_control/src/calc_odom', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'joystick' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tamir/autonomous_robot/build/joystick', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tamir/autonomous_robot/install/joystick', 'merge_install': False, 'path': '/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick', 'symlink_install': False, 'test_result_base': None}
+[0.255s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tamir/autonomous_robot/robot_common_interfaces' with build type 'ament_cmake'
+[0.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tamir/autonomous_robot/robot_common_interfaces'
+[0.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tamir/autonomous_robot/autonomous_robot_description' with build type 'ament_cmake'
+[0.263s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tamir/autonomous_robot/autonomous_robot_description'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tamir/autonomous_robot/aws-robomaker-small-warehouse-world' with build type 'ament_cmake'
+[0.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tamir/autonomous_robot/aws-robomaker-small-warehouse-world'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.271s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware' with build type 'ament_python'
+[0.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_hardware', 'ament_prefix_path')
+[0.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/control_hardware/share/control_hardware/hook/ament_prefix_path.ps1'
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/control_hardware/share/control_hardware/hook/ament_prefix_path.dsv'
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/control_hardware/share/control_hardware/hook/ament_prefix_path.sh'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tamir/autonomous_robot/sensors_package' with build type 'ament_cmake'
+[0.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tamir/autonomous_robot/sensors_package'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/build/robot_common_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/robot_common_interfaces -- -j12 -l12
+[0.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/build/autonomous_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/autonomous_robot_description -- -j12 -l12
+[0.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world -- -j12 -l12
+[0.501s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware'
+[0.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/build/autonomous_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/autonomous_robot_description -- -j12 -l12
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world -- -j12 -l12
+[0.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/build/sensors_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/sensors_package -- -j12 -l12
+[0.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/build/autonomous_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/autonomous_robot_description
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world
+[0.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomous_robot_description)
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/build/autonomous_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/autonomous_robot_description
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/autonomous_robot_description' for CMake module files
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/autonomous_robot_description' for CMake config files
+[0.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_robot_description', 'cmake_prefix_path')
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/hook/cmake_prefix_path.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/hook/cmake_prefix_path.dsv'
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/hook/cmake_prefix_path.sh'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/autonomous_robot_description/bin'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/autonomous_robot_description/lib/pkgconfig/autonomous_robot_description.pc'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/autonomous_robot_description/lib/python3.10/site-packages'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/autonomous_robot_description/bin'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/package.ps1'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/package.dsv'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/package.sh'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/package.bash'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/package.zsh'
+[0.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/install/autonomous_robot_description/share/colcon-core/packages/autonomous_robot_description)
+[0.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/build/sensors_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/sensors_package -- -j12 -l12
+[0.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aws_robomaker_small_warehouse_world)
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world' for CMake module files
+[0.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/aws_robomaker_small_warehouse_world
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world' for CMake config files
+[0.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('aws_robomaker_small_warehouse_world', 'cmake_prefix_path')
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.ps1'
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.dsv'
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.sh'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/bin'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/lib/pkgconfig/aws_robomaker_small_warehouse_world.pc'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/lib/python3.10/site-packages'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/bin'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.ps1'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.sh'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.bash'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.zsh'
+[0.581s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/colcon-core/packages/aws_robomaker_small_warehouse_world)
+[0.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/build/robot_common_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/robot_common_interfaces -- -j12 -l12
+[0.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomous_robot_description)
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/autonomous_robot_description' for CMake module files
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/autonomous_robot_description' for CMake config files
+[0.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_robot_description', 'cmake_prefix_path')
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/hook/cmake_prefix_path.ps1'
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/hook/cmake_prefix_path.dsv'
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/hook/cmake_prefix_path.sh'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/autonomous_robot_description/bin'
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/autonomous_robot_description/lib/pkgconfig/autonomous_robot_description.pc'
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/autonomous_robot_description/lib/python3.10/site-packages'
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/autonomous_robot_description/bin'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/package.ps1'
+[0.593s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/package.dsv'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/package.sh'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/package.bash'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description/package.zsh'
+[0.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/install/autonomous_robot_description/share/colcon-core/packages/autonomous_robot_description)
+[0.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/build/sensors_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/sensors_package
+[0.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors_package)
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package' for CMake module files
+[0.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/build/sensors_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/sensors_package
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package' for CMake config files
+[0.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors_package', 'cmake_prefix_path')
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/hook/cmake_prefix_path.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/hook/cmake_prefix_path.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/hook/cmake_prefix_path.sh'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package/lib'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package/bin'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package/lib/pkgconfig/sensors_package.pc'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package/lib/python3.10/site-packages'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package/bin'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/package.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/package.dsv'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/package.sh'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/package.bash'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/package.zsh'
+[0.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/install/sensors_package/share/colcon-core/packages/sensors_package)
+[0.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aws_robomaker_small_warehouse_world)
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world' for CMake module files
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world' for CMake config files
+[0.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('aws_robomaker_small_warehouse_world', 'cmake_prefix_path')
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.ps1'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.sh'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/bin'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/lib/pkgconfig/aws_robomaker_small_warehouse_world.pc'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/lib/python3.10/site-packages'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/bin'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.ps1'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.sh'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.bash'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.zsh'
+[0.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world/share/colcon-core/packages/aws_robomaker_small_warehouse_world)
+[0.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors_package)
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package' for CMake module files
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package' for CMake config files
+[0.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors_package', 'cmake_prefix_path')
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/hook/cmake_prefix_path.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/hook/cmake_prefix_path.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/hook/cmake_prefix_path.sh'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package/lib'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package/bin'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package/lib/pkgconfig/sensors_package.pc'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package/lib/python3.10/site-packages'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/sensors_package/bin'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/package.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/package.dsv'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/package.sh'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/package.bash'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/package.zsh'
+[0.634s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/install/sensors_package/share/colcon-core/packages/sensors_package)
+[0.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/build/robot_common_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/robot_common_interfaces
+[0.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_common_interfaces)
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces' for CMake module files
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/build/robot_common_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/robot_common_interfaces
+[0.677s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces' for CMake config files
+[0.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_common_interfaces', 'cmake_prefix_path')
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/hook/cmake_prefix_path.ps1'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/hook/cmake_prefix_path.dsv'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/hook/cmake_prefix_path.sh'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces/lib'
+[0.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_common_interfaces', 'ld_library_path_lib')
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/hook/ld_library_path_lib.ps1'
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/hook/ld_library_path_lib.dsv'
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/hook/ld_library_path_lib.sh'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces/bin'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces/lib/pkgconfig/robot_common_interfaces.pc'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces/lib/python3.10/site-packages'
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces/bin'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.ps1'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.dsv'
+[0.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.sh'
+[0.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.bash'
+[0.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.zsh'
+[0.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/install/robot_common_interfaces/share/colcon-core/packages/robot_common_interfaces)
+[0.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_common_interfaces)
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces' for CMake module files
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces' for CMake config files
+[0.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_common_interfaces', 'cmake_prefix_path')
+[0.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/hook/cmake_prefix_path.ps1'
+[0.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/hook/cmake_prefix_path.dsv'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/hook/cmake_prefix_path.sh'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces/lib'
+[0.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_common_interfaces', 'ld_library_path_lib')
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/hook/ld_library_path_lib.ps1'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/hook/ld_library_path_lib.dsv'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/hook/ld_library_path_lib.sh'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces/bin'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces/lib/pkgconfig/robot_common_interfaces.pc'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces/lib/python3.10/site-packages'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/robot_common_interfaces/bin'
+[0.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.ps1'
+[0.746s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.sh'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.bash'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.zsh'
+[0.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/install/robot_common_interfaces/share/colcon-core/packages/robot_common_interfaces)
+[0.747s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tamir/autonomous_robot/autonomous_robot_control/src/calc_odom' with build type 'ament_python'
+[0.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('calc_odom', 'ament_prefix_path')
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/calc_odom/share/calc_odom/hook/ament_prefix_path.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/calc_odom/share/calc_odom/hook/ament_prefix_path.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/calc_odom/share/calc_odom/hook/ament_prefix_path.sh'
+[0.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.749s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.752s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick' with build type 'ament_cmake'
+[0.752s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick'
+[0.752s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.927s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tamir/autonomous_robot/autonomous_robot_control/src/calc_odom'
+[0.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware': PYTHONPATH=/home/tamir/autonomous_robot/build/control_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tamir/autonomous_robot/install/control_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/control_hardware build --build-base /home/tamir/autonomous_robot/build/control_hardware/build install --record /home/tamir/autonomous_robot/build/control_hardware/install.log --single-version-externally-managed install_data
+[0.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/build/joystick': CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/install/robot_common_interfaces:/home/tamir/autonomous_robot/install/sensors_package:/home/tamir/autonomous_robot/install/joystick:/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world:/home/tamir/autonomous_robot/install/autonomous_robot_description:/home/tamir/autonomous_robot/autonomous_robot_description/install/autonomous_robot_description:/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_driver:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/my_robot_description:/home/tamir/install/autonomous_robot_description:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/install/robot_common_interfaces/lib:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan/lib:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/tamir/autonomous_robot/build/joystick -- -j12 -l12
+[1.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/build/joystick' returned '0': CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/install/robot_common_interfaces:/home/tamir/autonomous_robot/install/sensors_package:/home/tamir/autonomous_robot/install/joystick:/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world:/home/tamir/autonomous_robot/install/autonomous_robot_description:/home/tamir/autonomous_robot/autonomous_robot_description/install/autonomous_robot_description:/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_driver:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/my_robot_description:/home/tamir/install/autonomous_robot_description:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/install/robot_common_interfaces/lib:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan/lib:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/tamir/autonomous_robot/build/joystick -- -j12 -l12
+[1.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/build/joystick': CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/install/robot_common_interfaces:/home/tamir/autonomous_robot/install/sensors_package:/home/tamir/autonomous_robot/install/joystick:/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world:/home/tamir/autonomous_robot/install/autonomous_robot_description:/home/tamir/autonomous_robot/autonomous_robot_description/install/autonomous_robot_description:/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_driver:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/my_robot_description:/home/tamir/install/autonomous_robot_description:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/install/robot_common_interfaces/lib:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan/lib:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/tamir/autonomous_robot/build/joystick
+[1.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick)
+[1.050s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick' for CMake module files
+[1.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/build/joystick' returned '0': CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/install/robot_common_interfaces:/home/tamir/autonomous_robot/install/sensors_package:/home/tamir/autonomous_robot/install/joystick:/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world:/home/tamir/autonomous_robot/install/autonomous_robot_description:/home/tamir/autonomous_robot/autonomous_robot_description/install/autonomous_robot_description:/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_driver:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/my_robot_description:/home/tamir/install/autonomous_robot_description:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tamir/autonomous_robot/install/robot_common_interfaces/lib:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan/lib:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/tamir/autonomous_robot/build/joystick
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick' for CMake config files
+[1.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick', 'cmake_prefix_path')
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/joystick/share/joystick/hook/cmake_prefix_path.ps1'
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/joystick/share/joystick/hook/cmake_prefix_path.dsv'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/joystick/share/joystick/hook/cmake_prefix_path.sh'
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick/lib'
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick/bin'
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick/lib/pkgconfig/joystick.pc'
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick/lib/python3.10/site-packages'
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick/bin'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/joystick/share/joystick/package.ps1'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/install/joystick/share/joystick/package.dsv'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/joystick/share/joystick/package.sh'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/joystick/share/joystick/package.bash'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/joystick/share/joystick/package.zsh'
+[1.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/install/joystick/share/colcon-core/packages/joystick)
+[1.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick)
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick' for CMake module files
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick' for CMake config files
+[1.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick', 'cmake_prefix_path')
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/joystick/share/joystick/hook/cmake_prefix_path.ps1'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/joystick/share/joystick/hook/cmake_prefix_path.dsv'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/joystick/share/joystick/hook/cmake_prefix_path.sh'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick/lib'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick/bin'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick/lib/pkgconfig/joystick.pc'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick/lib/python3.10/site-packages'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/joystick/bin'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/joystick/share/joystick/package.ps1'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/install/joystick/share/joystick/package.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/joystick/share/joystick/package.sh'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/joystick/share/joystick/package.bash'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/joystick/share/joystick/package.zsh'
+[1.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/install/joystick/share/colcon-core/packages/joystick)
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/control_hardware' for CMake module files
+[1.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware' returned '0': PYTHONPATH=/home/tamir/autonomous_robot/build/control_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tamir/autonomous_robot/install/control_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/control_hardware build --build-base /home/tamir/autonomous_robot/build/control_hardware/build install --record /home/tamir/autonomous_robot/build/control_hardware/install.log --single-version-externally-managed install_data
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/control_hardware' for CMake config files
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/control_hardware/lib'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/control_hardware/bin'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/control_hardware/lib/pkgconfig/control_hardware.pc'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/control_hardware/lib/python3.10/site-packages'
+[1.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_hardware', 'pythonpath')
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/control_hardware/share/control_hardware/hook/pythonpath.ps1'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/control_hardware/share/control_hardware/hook/pythonpath.dsv'
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/control_hardware/share/control_hardware/hook/pythonpath.sh'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/control_hardware/bin'
+[1.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_hardware)
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/control_hardware/share/control_hardware/package.ps1'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/install/control_hardware/share/control_hardware/package.dsv'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/control_hardware/share/control_hardware/package.sh'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/control_hardware/share/control_hardware/package.bash'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/control_hardware/share/control_hardware/package.zsh'
+[1.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/install/control_hardware/share/colcon-core/packages/control_hardware)
+[1.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/calc_odom': CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/install/robot_common_interfaces:/home/tamir/autonomous_robot/install/sensors_package:/home/tamir/autonomous_robot/install/joystick:/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world:/home/tamir/autonomous_robot/install/autonomous_robot_description:/home/tamir/autonomous_robot/autonomous_robot_description/install/autonomous_robot_description:/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_driver:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/my_robot_description:/home/tamir/install/autonomous_robot_description LD_LIBRARY_PATH=/home/tamir/autonomous_robot/install/robot_common_interfaces/lib:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan/lib:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tamir/autonomous_robot/build/calc_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tamir/autonomous_robot/install/calc_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/calc_odom build --build-base /home/tamir/autonomous_robot/build/calc_odom/build install --record /home/tamir/autonomous_robot/build/calc_odom/install.log --single-version-externally-managed install_data
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/calc_odom' for CMake module files
+[1.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/calc_odom' returned '0': CMAKE_PREFIX_PATH=/home/tamir/autonomous_robot/install/robot_common_interfaces:/home/tamir/autonomous_robot/install/sensors_package:/home/tamir/autonomous_robot/install/joystick:/home/tamir/autonomous_robot/install/aws_robomaker_small_warehouse_world:/home/tamir/autonomous_robot/install/autonomous_robot_description:/home/tamir/autonomous_robot/autonomous_robot_description/install/autonomous_robot_description:/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_driver:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs:/home/tamir/ros2_ws/install/my_turtle_interfaces:/home/tamir/ros2_ws/install/my_robot_interfaces:/home/tamir/ros2_ws/install/my_robot_bringup:/home/tamir/ros2_ws/install/my_robot_description:/home/tamir/ros2_ws/install/my_cpp_pkg:/home/tamir/turtlebot3_ws/install/turtlebot3_simulations:/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo:/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node:/home/tamir/install/my_robot_description:/home/tamir/install/autonomous_robot_description LD_LIBRARY_PATH=/home/tamir/autonomous_robot/install/robot_common_interfaces/lib:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan/lib:/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib:/home/tamir/ros2_ws/install/my_turtle_interfaces/lib:/home/tamir/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tamir/autonomous_robot/build/calc_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tamir/autonomous_robot/install/calc_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/calc_odom build --build-base /home/tamir/autonomous_robot/build/calc_odom/build install --record /home/tamir/autonomous_robot/build/calc_odom/install.log --single-version-externally-managed install_data
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/calc_odom' for CMake config files
+[1.413s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/calc_odom/lib'
+[1.413s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/calc_odom/bin'
+[1.413s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/calc_odom/lib/pkgconfig/calc_odom.pc'
+[1.413s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/calc_odom/lib/python3.10/site-packages'
+[1.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('calc_odom', 'pythonpath')
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/calc_odom/share/calc_odom/hook/pythonpath.ps1'
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tamir/autonomous_robot/install/calc_odom/share/calc_odom/hook/pythonpath.dsv'
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tamir/autonomous_robot/install/calc_odom/share/calc_odom/hook/pythonpath.sh'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/tamir/autonomous_robot/install/calc_odom/bin'
+[1.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(calc_odom)
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/calc_odom/share/calc_odom/package.ps1'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tamir/autonomous_robot/install/calc_odom/share/calc_odom/package.dsv'
+[1.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/calc_odom/share/calc_odom/package.sh'
+[1.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/calc_odom/share/calc_odom/package.bash'
+[1.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/tamir/autonomous_robot/install/calc_odom/share/calc_odom/package.zsh'
+[1.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tamir/autonomous_robot/install/calc_odom/share/colcon-core/packages/calc_odom)
+[1.416s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.417s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.417s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.417s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.422s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.422s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.422s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.430s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/autonomous_robot/install/local_setup.ps1'
+[1.432s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tamir/autonomous_robot/install/_local_setup_util_ps1.py'
+[1.433s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/autonomous_robot/install/setup.ps1'
+[1.434s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/autonomous_robot/install/local_setup.sh'
+[1.434s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tamir/autonomous_robot/install/_local_setup_util_sh.py'
+[1.435s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/autonomous_robot/install/setup.sh'
+[1.436s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/autonomous_robot/install/local_setup.bash'
+[1.436s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/autonomous_robot/install/setup.bash'
+[1.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tamir/autonomous_robot/install/local_setup.zsh'
+[1.438s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tamir/autonomous_robot/install/setup.zsh'

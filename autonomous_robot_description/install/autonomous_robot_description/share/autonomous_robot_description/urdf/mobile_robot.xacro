@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <xacro:property name="wheel_r" value="0.16" /> <!-- without load the wheel diameter is 0.35 (radius = 0.175) so might go between 0.16 - 0.17 with standard load -->
-    <xacro:property name="wheel_l" value="0.16" />
+    <xacro:property name="wheel_r" value="0.175" /> <!-- without load the wheel diameter is 0.35 (radius = 0.175) so might go between 0.16 - 0.17 with standard load -->
+    <xacro:property name="wheel_l" value="0.13" />
     <xacro:property name="wheel_axis_h" value="0.18802" /> 
     
     <xacro:property name="hinge_l" value="${wheel_r - small_wheel_r + wheel_axis_h}" />

@@ -1,0 +1,234 @@
+[0.024s] Invoking command in '/home/tamir/autonomous_robot/build/robot_common_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/tamir/autonomous_robot/robot_common_interfaces -DCMAKE_INSTALL_PREFIX=/home/tamir/autonomous_robot/install/robot_common_interfaces
+[0.208s] -- The C compiler identification is GNU 11.4.0
+[0.255s] -- The CXX compiler identification is GNU 11.4.0
+[0.263s] -- Detecting C compiler ABI info
+[0.318s] -- Detecting C compiler ABI info - done
+[0.324s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.324s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.326s] -- Detecting CXX compiler ABI info
+[0.391s] -- Detecting CXX compiler ABI info - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.401s] -- Detecting CXX compile features
+[0.401s] -- Detecting CXX compile features - done
+[0.407s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.668s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.774s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.793s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.863s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.897s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.143s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.656s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.676s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.678s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.711s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.711s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.711s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.711s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.730s] -- Found PythonExtra: .so  
+[1.780s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.795s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.795s] -- Configured cppcheck include dirs: 
+[1.795s] -- Configured cppcheck exclude dirs and/or files: 
+[1.799s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.803s] -- Added test 'lint_cmake' to check CMake code style
+[1.806s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.820s] -- Added test 'uncrustify' to check C / C++ code style
+[1.820s] -- Configured uncrustify additional arguments: 
+[1.824s] -- Added test 'xmllint' to check XML markup files
+[1.829s] -- Configuring done
+[1.846s] -- Generating done
+[1.848s] -- Build files have been written to: /home/tamir/autonomous_robot/build/robot_common_interfaces
+[1.853s] Invoked command in '/home/tamir/autonomous_robot/build/robot_common_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/tamir/autonomous_robot/robot_common_interfaces -DCMAKE_INSTALL_PREFIX=/home/tamir/autonomous_robot/install/robot_common_interfaces
+[1.854s] Invoking command in '/home/tamir/autonomous_robot/build/robot_common_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/robot_common_interfaces -- -j12 -l12
+[1.893s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.901s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.921s] [  6%] Built target ament_cmake_python_copy_robot_common_interfaces
+[2.320s] [  6%] Built target robot_common_interfaces__cpp
+[2.324s] running egg_info
+[2.325s] creating robot_common_interfaces.egg-info
+[2.325s] writing robot_common_interfaces.egg-info/PKG-INFO
+[2.325s] writing dependency_links to robot_common_interfaces.egg-info/dependency_links.txt
+[2.326s] writing top-level names to robot_common_interfaces.egg-info/top_level.txt
+[2.326s] writing manifest file 'robot_common_interfaces.egg-info/SOURCES.txt'
+[2.327s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.328s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.328s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.328s] reading manifest file 'robot_common_interfaces.egg-info/SOURCES.txt'
+[2.329s] writing manifest file 'robot_common_interfaces.egg-info/SOURCES.txt'
+[2.439s] [ 16%] Built target ament_cmake_python_build_robot_common_interfaces_egg
+[2.500s] [ 19%] [32mBuilding C object CMakeFiles/robot_common_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_common_interfaces/msg/detail/ser_com_struct__functions.c.o[0m
+[2.617s] [ 22%] [32m[1mLinking C shared library librobot_common_interfaces__rosidl_generator_c.so[0m
+[2.685s] [ 22%] Built target robot_common_interfaces__rosidl_generator_c
+[2.694s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.696s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.696s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.822s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_common_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_common_interfaces/msg/detail/dds_fastrtps/ser_com_struct__type_support.cpp.o[0m
+[2.829s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_common_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_common_interfaces/msg/ser_com_struct__type_support.cpp.o[0m
+[2.860s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_common_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_common_interfaces/msg/detail/ser_com_struct__type_support.cpp.o[0m
+[3.298s] [ 45%] [32mBuilding C object CMakeFiles/robot_common_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_common_interfaces/msg/detail/ser_com_struct__type_support.c.o[0m
+[3.308s] [ 48%] [32mBuilding CXX object CMakeFiles/robot_common_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_common_interfaces/msg/detail/ser_com_struct__type_support_c.cpp.o[0m
+[3.347s] [ 51%] [32m[1mLinking C shared library librobot_common_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.460s] [ 54%] [32mBuilding CXX object CMakeFiles/robot_common_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_common_interfaces/msg/ser_com_struct__type_support.cpp.o[0m
+[3.467s] [ 54%] Built target robot_common_interfaces__rosidl_typesupport_introspection_c
+[3.571s] [ 58%] [32m[1mLinking CXX shared library librobot_common_interfaces__rosidl_typesupport_c.so[0m
+[3.640s] [ 58%] Built target robot_common_interfaces__rosidl_typesupport_c
+[3.657s] [ 61%] [32m[1mLinking CXX shared library librobot_common_interfaces__rosidl_typesupport_cpp.so[0m
+[3.695s] [ 64%] [32m[1mLinking CXX shared library librobot_common_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.698s] [ 64%] Built target robot_common_interfaces__rosidl_typesupport_cpp
+[3.728s] [ 67%] [32m[1mLinking CXX shared library librobot_common_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.771s] [ 67%] Built target robot_common_interfaces__rosidl_typesupport_introspection_cpp
+[3.788s] [ 67%] Built target robot_common_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.872s] [ 70%] [32m[1mLinking CXX shared library librobot_common_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.985s] [ 70%] Built target robot_common_interfaces__rosidl_typesupport_fastrtps_c
+[4.004s] [ 70%] Built target robot_common_interfaces
+[4.022s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.297s] [ 74%] Built target robot_common_interfaces__py
+[4.318s] [ 77%] [32mBuilding C object CMakeFiles/robot_common_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_common_interfaces/msg/_ser_com_struct_s.c.o[0m
+[4.392s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robot_common_interfaces/librobot_common_interfaces__rosidl_generator_py.so[0m
+[4.430s] [ 80%] Built target robot_common_interfaces__rosidl_generator_py
+[4.447s] [ 83%] [32mBuilding C object CMakeFiles/robot_common_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_common_interfaces/_robot_common_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.450s] [ 90%] [32mBuilding C object CMakeFiles/robot_common_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_common_interfaces/_robot_common_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.450s] [ 90%] [32mBuilding C object CMakeFiles/robot_common_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_common_interfaces/_robot_common_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.512s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_common_interfaces/robot_common_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.518s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/robot_common_interfaces/robot_common_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.519s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_common_interfaces/robot_common_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.539s] [100%] Built target robot_common_interfaces__rosidl_typesupport_c__pyext
+[4.553s] [100%] Built target robot_common_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.554s] [100%] Built target robot_common_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.565s] Invoked command in '/home/tamir/autonomous_robot/build/robot_common_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/build/robot_common_interfaces -- -j12 -l12
+[4.620s] Invoking command in '/home/tamir/autonomous_robot/build/robot_common_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/robot_common_interfaces
+[4.627s] -- Install configuration: ""
+[4.627s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_common_interfaces
+[4.627s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces
+[4.627s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg
+[4.627s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.627s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail
+[4.627s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__type_support.h
+[4.627s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__struct.h
+[4.627s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__functions.c
+[4.627s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__functions.h
+[4.627s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/ser_com_struct.h
+[4.628s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/environment/library_path.sh
+[4.628s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/environment/library_path.dsv
+[4.628s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_generator_c.so
+[4.628s] -- Set runtime path of "/home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_generator_c.so" to ""
+[4.628s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces
+[4.628s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg
+[4.628s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail
+[4.628s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__rosidl_typesupport_fastrtps_c.h
+[4.628s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.628s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.628s] -- Set runtime path of "/home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.628s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces
+[4.628s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg
+[4.628s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail
+[4.628s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__type_support.c
+[4.628s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__rosidl_typesupport_introspection_c.h
+[4.628s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.628s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_typesupport_introspection_c.so
+[4.629s] -- Set runtime path of "/home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.629s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_typesupport_c.so
+[4.629s] -- Set runtime path of "/home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_typesupport_c.so" to ""
+[4.629s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces
+[4.629s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg
+[4.629s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/ser_com_struct.hpp
+[4.629s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail
+[4.629s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__struct.hpp
+[4.629s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__builder.hpp
+[4.629s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__traits.hpp
+[4.629s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces
+[4.629s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg
+[4.629s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.629s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail
+[4.629s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/dds_fastrtps
+[4.630s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__rosidl_typesupport_fastrtps_cpp.hpp
+[4.630s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.630s] -- Set runtime path of "/home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.630s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces
+[4.630s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg
+[4.630s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail
+[4.630s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__type_support.cpp
+[4.630s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/include/robot_common_interfaces/robot_common_interfaces/msg/detail/ser_com_struct__rosidl_typesupport_introspection_cpp.hpp
+[4.630s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.630s] -- Set runtime path of "/home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.631s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_typesupport_cpp.so
+[4.631s] -- Set runtime path of "/home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.631s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/environment/pythonpath.sh
+[4.631s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/environment/pythonpath.dsv
+[4.631s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces-0.0.0-py3.10.egg-info
+[4.631s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.631s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.631s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.631s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.631s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces
+[4.631s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/librobot_common_interfaces__rosidl_generator_py.so
+[4.631s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/msg
+[4.631s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/msg/_ser_com_struct.py
+[4.632s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/msg/_ser_com_struct_s.c
+[4.632s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/msg/__init__.py
+[4.632s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/robot_common_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.632s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/__init__.py
+[4.632s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/_robot_common_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.632s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/_robot_common_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.632s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/robot_common_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.632s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/robot_common_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.632s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/_robot_common_interfaces_s.ep.rosidl_typesupport_c.c
+[4.658s] Listing '/home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces'...
+[4.658s] Compiling '/home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/__init__.py'...
+[4.658s] Listing '/home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/msg'...
+[4.658s] Compiling '/home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/msg/__init__.py'...
+[4.658s] Compiling '/home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/msg/_ser_com_struct.py'...
+[4.661s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/robot_common_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.662s] -- Set runtime path of "/home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/robot_common_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.662s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/robot_common_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.662s] -- Set runtime path of "/home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/robot_common_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.662s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/robot_common_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.662s] -- Set runtime path of "/home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages/robot_common_interfaces/robot_common_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.662s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_generator_py.so
+[4.662s] -- Set runtime path of "/home/tamir/autonomous_robot/install/robot_common_interfaces/lib/librobot_common_interfaces__rosidl_generator_py.so" to ""
+[4.662s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/msg/SerComStruct.idl
+[4.663s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/msg/SerComStruct.msg
+[4.663s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.xml
+[4.663s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_common_interfaces
+[4.663s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_common_interfaces
+[4.663s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/environment/ament_prefix_path.sh
+[4.663s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/environment/ament_prefix_path.dsv
+[4.663s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/environment/path.sh
+[4.663s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/environment/path.dsv
+[4.663s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/local_setup.bash
+[4.663s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/local_setup.sh
+[4.663s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/local_setup.zsh
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/local_setup.dsv
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.dsv
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/ament_index/resource_index/packages/robot_common_interfaces
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/export_robot_common_interfaces__rosidl_generator_cExport.cmake
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/export_robot_common_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/export_robot_common_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/export_robot_common_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/robot_common_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/robot_common_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/robot_common_interfaces__rosidl_typesupport_cExport.cmake
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/robot_common_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/export_robot_common_interfaces__rosidl_generator_cppExport.cmake
+[4.664s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/export_robot_common_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.665s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/export_robot_common_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.665s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/robot_common_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.665s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/robot_common_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.665s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/robot_common_interfaces__rosidl_typesupport_cppExport.cmake
+[4.665s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/robot_common_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.665s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/export_robot_common_interfaces__rosidl_generator_pyExport.cmake
+[4.665s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/export_robot_common_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.665s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.665s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.665s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.665s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.666s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.666s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.666s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.666s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/robot_common_interfacesConfig.cmake
+[4.666s] -- Installing: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake/robot_common_interfacesConfig-version.cmake
+[4.666s] -- Up-to-date: /home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/package.xml
+[4.667s] Invoked command in '/home/tamir/autonomous_robot/build/robot_common_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/build/robot_common_interfaces

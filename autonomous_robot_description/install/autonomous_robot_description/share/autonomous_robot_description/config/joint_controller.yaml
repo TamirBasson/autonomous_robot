@@ -1,6 +1,6 @@
 controller_manager:
   ros__parameters:
-    update_rate: 30 #Hz   100 is more logical
+    update_rate: 30   # You can adjust this as needed, e.g. 100 for more frequent updates
     use_sim_time: true
 
     diff_cont:
@@ -9,37 +9,19 @@ controller_manager:
     joint_broad:
       type: joint_state_broadcaster/JointStateBroadcaster
 
-
 diff_cont:
   ros__parameters:
-
-    publish_rate: 50.0 #Hz
-
-    base_frame_id: base_footprint
-
-    left_wheel_names: ['left_wheel_joint']
-    right_wheel_names: ['right_wheel_joint']
-    wheel_separation: 0.77 #${mobile_w - leg_w} #${0.85 - 0.08}
-    wheel_radius: 0.16 #${wheel_radius}  #wheel_radius = 0.16
-
-    use_stamped_vel: false #articulated video
-    #cmd_vel_timeout: 0.5
-    publish_rate: 50.0 #Hz
-
-# # If using our own Diff Drive Controller
-# joint_velocity_controller:
-#   ros__parameters:
-#     joints:
-#       - right_wheel_joint
-#       - left_wheel_joint
-#     interface_name: velocity
-#     command_interfaces:
-#       - velocity
-#     state_interfaces:
-#       - position
-#       - velocity
-
-# joint_broad:
-#   ros__parameters:
+    # Disable odometry publishing
+    publish_odom: false
+    enable_odom_tf: false
+    
+    base_frame_id: "base_footprint"
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+    wheel_separation: 0.77
+    wheel_radius: 0.16
+    use_stamped_vel: false
 
 
+    # If you decide to re-enable odom in the future, set an appropriate publish rate
+    # publish_rate: 50.0 #Hz

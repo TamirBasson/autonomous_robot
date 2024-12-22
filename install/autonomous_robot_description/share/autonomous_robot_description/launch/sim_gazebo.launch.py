@@ -71,7 +71,7 @@ def generate_launch_description():
         arguments=["-topic", "robot_description", "-entity", "autonomous_robot"]
     )
 
-    # Spawning the differential controller
+    # # Spawning the differential controller
     spawn_diff_controller = Node(
         package="controller_manager",
         executable="spawner",
@@ -92,7 +92,8 @@ def generate_launch_description():
         package="rviz2",
         executable="rviz2",
         output="screen",
-        arguments=["-d", LaunchConfiguration("rviz_config_path")]
+        arguments=["-d", LaunchConfiguration("rviz_config_path")],
+        parameters=[{"use_sim_time": True}]
     )
 
     # Twist Mux changing the topic name, instead of /cmd_vel it will be /diff_cont/cmd_vel_unstamped 

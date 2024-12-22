@@ -14,7 +14,7 @@
         <xacro:include filename="autonomous_robot_gazebo.xacro" />
     </xacro:unless>
 
-    
+    <xacro:include filename="imu.xacro" />
     <xacro:include filename="lidar.xacro" />
     <xacro:include filename="camera.xacro" />
     <xacro:include filename="gazebo_color.xacro" />

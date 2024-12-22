@@ -71,7 +71,7 @@ def generate_launch_description():
         arguments=["-topic", "robot_description", "-entity", "autonomous_robot"]
     )
 
-    # Spawning the differential controller
+    # # Spawning the differential controller
     spawn_diff_controller = Node(
         package="controller_manager",
         executable="spawner",
