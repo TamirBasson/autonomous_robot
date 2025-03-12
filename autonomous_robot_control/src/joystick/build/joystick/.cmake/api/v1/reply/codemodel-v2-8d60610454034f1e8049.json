@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-42f3934a097033331193.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "joystick",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick-4122d1e84344a06fd0f8.json",
+					"name" : "joystick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick_uninstall-a38e62a9e386b2b6348b.json",
+					"name" : "joystick_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prototype_joy_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prototype_joy_driver-1caa380342f1518ae3d2.json",
+					"name" : "prototype_joy_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_joy_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_joy_node-3cdc926c85ffb8fbaffe.json",
+					"name" : "teleop_joy_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-291dfca8b2164844611a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick",
+		"source" : "/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

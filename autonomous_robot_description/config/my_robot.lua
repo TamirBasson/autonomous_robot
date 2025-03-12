@@ -55,12 +55,15 @@ TRAJECTORY_BUILDER_2D.motion_filter.max_distance_meters = 0.05 -- Maximum distan
 TRAJECTORY_BUILDER_2D.motion_filter.max_angle_radians = math.rad(0.1) -- Maximum angle change for motion filtering (in radians)
 
 TRAJECTORY_BUILDER_2D.num_accumulated_range_data = 1 -- Number of scans to accumulate before processing
-
+POSE_GRAPH.constraint_builder.sampling_ratio = 0.03
+POSE_GRAPH.optimization_problem.ceres_solver_options.max_num_iterations = 10
+POSE_GRAPH.constraint_builder.min_score = 0.62
+POSE_GRAPH.constraint_builder.global_localization_min_score = 0.66
 -- Pose graph optimization settings
 POSE_GRAPH.constraint_builder.min_score = 0.65 -- Minimum score for constraint building
 POSE_GRAPH.constraint_builder.global_localization_min_score = 0.8 -- Minimum score for global localization
 POSE_GRAPH.optimization_problem.huber_scale = 1e1 -- Robustness parameter for optimization
-POSE_GRAPH.optimize_every_n_nodes = 20 -- Optimize the pose graph after this many nodes
+POSE_GRAPH.optimize_every_n_nodes = 200 -- Optimize the pose graph after this many nodes
 TRAJECTORY_BUILDER_2D.imu_gravity_time_constant = 9.8 -- Smooth gravity estimation for IMU
 -- Return the options to Cartographer
 return options

@@ -7,5 +7,6 @@
 #include "lslidar_msgs/srv/detail/time_service__struct.hpp"
 #include "lslidar_msgs/srv/detail/time_service__builder.hpp"
 #include "lslidar_msgs/srv/detail/time_service__traits.hpp"
+#include "lslidar_msgs/srv/detail/time_service__type_support.hpp"
 
 #endif  // LSLIDAR_MSGS__SRV__TIME_SERVICE_HPP_

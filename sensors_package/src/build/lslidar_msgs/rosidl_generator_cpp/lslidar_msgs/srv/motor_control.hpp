@@ -7,5 +7,6 @@
 #include "lslidar_msgs/srv/detail/motor_control__struct.hpp"
 #include "lslidar_msgs/srv/detail/motor_control__builder.hpp"
 #include "lslidar_msgs/srv/detail/motor_control__traits.hpp"
+#include "lslidar_msgs/srv/detail/motor_control__type_support.hpp"
 
 #endif  // LSLIDAR_MSGS__SRV__MOTOR_CONTROL_HPP_

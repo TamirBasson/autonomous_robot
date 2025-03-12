@@ -7,5 +7,6 @@
 #include "lslidar_msgs/msg/detail/lslidar_scan__struct.hpp"
 #include "lslidar_msgs/msg/detail/lslidar_scan__builder.hpp"
 #include "lslidar_msgs/msg/detail/lslidar_scan__traits.hpp"
+#include "lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp"
 
 #endif  // LSLIDAR_MSGS__MSG__LSLIDAR_SCAN_HPP_

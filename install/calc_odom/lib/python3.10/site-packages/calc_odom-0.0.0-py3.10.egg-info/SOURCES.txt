@@ -9,6 +9,7 @@ setup.py
 ../../../build/calc_odom/calc_odom.egg-info/top_level.txt
 ../../../build/calc_odom/calc_odom.egg-info/zip-safe
 calc_odom/__init__.py
+calc_odom/cartographer_odom.py
 calc_odom/encoder_odom.py
 resource/calc_odom
 test/test_copyright.py

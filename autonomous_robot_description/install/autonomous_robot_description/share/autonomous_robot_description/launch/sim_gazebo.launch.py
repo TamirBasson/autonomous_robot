@@ -92,7 +92,8 @@ def generate_launch_description():
         package="rviz2",
         executable="rviz2",
         output="screen",
-        arguments=["-d", LaunchConfiguration("rviz_config_path")]
+        arguments=["-d", LaunchConfiguration("rviz_config_path")],
+        parameters=[{"use_sim_time": True}]
     )
 
     # Twist Mux changing the topic name, instead of /cmd_vel it will be /diff_cont/cmd_vel_unstamped 
@@ -104,6 +105,13 @@ def generate_launch_description():
             parameters=[twist_mux_params, {'use_sim_time': True}],
             remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
         )
+    # cart_odom= Node(
+    #             package='calc_odom',           # Name of the package
+    #             executable='cartographer_odom', # Name of the executable
+    #             name='cartographer_odom',      # Optional name for the node
+    #             output='screen',               # Output logs to the screen
+    #             parameters=[]                  # Add any parameters if needed
+    #         )
 
     return LaunchDescription([
         declare_urdf_path,
@@ -116,5 +124,6 @@ def generate_launch_description():
         spawn_joint_board_controller,
         rviz_launch,
         twist_mux
+        # cart_odom
 
     ])

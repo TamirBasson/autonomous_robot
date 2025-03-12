@@ -15,6 +15,7 @@ find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(robot_common_interfaces REQUIRED)
 
+
 # Include directories for C++
 include_directories(include)
 
@@ -27,14 +28,10 @@ add_library(joystick
 add_executable(teleop_joy_node src/teleop_joy_node.cpp)
 ament_target_dependencies(teleop_joy_node rclcpp geometry_msgs sensor_msgs)
 
-add_executable(prototype_joy_driver src/prototype_joy_driver.cpp)
-ament_target_dependencies(prototype_joy_driver rclcpp robot_common_interfaces sensor_msgs)
-target_link_libraries(prototype_joy_driver joystick)
 
 # Install the C++ executables
 install(TARGETS
   teleop_joy_node
-  prototype_joy_driver
   DESTINATION lib/${PROJECT_NAME}
 )
 

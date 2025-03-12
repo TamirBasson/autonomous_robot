@@ -1,0 +1,21 @@
+-- Install configuration: ""
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/lib/sensors_package/camera_rgb_publisher.py
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/launch/launch
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/launch/launch/camera_launch.py
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/launch/launch/all_sensors.launch.py
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/launch/config
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/ament_index/resource_index/package_run_dependencies/sensors_package
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/ament_index/resource_index/parent_prefix_path/sensors_package
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/environment/path.sh
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/environment/path.dsv
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/local_setup.bash
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/local_setup.sh
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/local_setup.zsh
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/local_setup.dsv
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/package.dsv
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/ament_index/resource_index/packages/sensors_package
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/cmake/sensors_packageConfig.cmake
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/cmake/sensors_packageConfig-version.cmake
+-- Up-to-date: /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/package.xml

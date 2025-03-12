@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0d7328bd63f518043442.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robot_common_interfaces__py",
+					"jsonFile" : "directory-robot_common_interfaces__py-9e2ba2616b71dd098894.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tamir/autonomous_robot/build/robot_common_interfaces/robot_common_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robot_common_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robot_common_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robot_common_interfaces_egg-d2a5cfc3aa7548288753.json",
+					"name" : "ament_cmake_python_build_robot_common_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robot_common_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robot_common_interfaces-6e836ece14ec2cdc9062.json",
+					"name" : "ament_cmake_python_copy_robot_common_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces-4b967b77abc7a5b7b94c.json",
+					"name" : "robot_common_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces__cpp-35766b796dfe78d0f2fa.json",
+					"name" : "robot_common_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robot_common_interfaces__py::@8179a541457e8072a0df",
+					"jsonFile" : "target-robot_common_interfaces__py-7549813713816053e55a.json",
+					"name" : "robot_common_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces__rosidl_generator_c-6d0feb4bfde12ce201f0.json",
+					"name" : "robot_common_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces__rosidl_generator_py-58b4067080100c0965e2.json",
+					"name" : "robot_common_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces__rosidl_typesupport_c-14e09b0125815a5499c1.json",
+					"name" : "robot_common_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces__rosidl_typesupport_c__pyext-63891d8eeac5583218f6.json",
+					"name" : "robot_common_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces__rosidl_typesupport_cpp-182cb9bda70d9a288f7e.json",
+					"name" : "robot_common_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces__rosidl_typesupport_fastrtps_c-6f87a74ade340da76da0.json",
+					"name" : "robot_common_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces__rosidl_typesupport_fastrtps_c__pyext-8217757e5d85a0ea0917.json",
+					"name" : "robot_common_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces__rosidl_typesupport_fastrtps_cpp-e7549e881d90b09792f1.json",
+					"name" : "robot_common_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces__rosidl_typesupport_introspection_c-5b99bd47bc2b711b3f49.json",
+					"name" : "robot_common_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces__rosidl_typesupport_introspection_c__pyext-b3298df6d5c5c1c5bdb7.json",
+					"name" : "robot_common_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces__rosidl_typesupport_introspection_cpp-1fdd130b3fe83f8d22a7.json",
+					"name" : "robot_common_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_common_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_common_interfaces_uninstall-26695b1477739bdfb522.json",
+					"name" : "robot_common_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-31ff2e2ec663cb59347f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tamir/autonomous_robot/build/robot_common_interfaces",
+		"source" : "/home/tamir/autonomous_robot/robot_common_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

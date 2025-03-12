@@ -7,5 +7,6 @@
 #include "lslidar_msgs/srv/detail/motor_speed__struct.hpp"
 #include "lslidar_msgs/srv/detail/motor_speed__builder.hpp"
 #include "lslidar_msgs/srv/detail/motor_speed__traits.hpp"
+#include "lslidar_msgs/srv/detail/motor_speed__type_support.hpp"
 
 #endif  // LSLIDAR_MSGS__SRV__MOTOR_SPEED_HPP_

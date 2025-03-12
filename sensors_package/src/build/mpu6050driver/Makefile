@@ -198,6 +198,19 @@ mpu6050driver_uninstall/fast:
 .PHONY : mpu6050driver_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named imu_odom
+
+# Build rule for target.
+imu_odom: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu_odom
+.PHONY : imu_odom
+
+# fast build rule for target.
+imu_odom/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_odom.dir/build.make CMakeFiles/imu_odom.dir/build
+.PHONY : imu_odom/fast
+
+#=============================================================================
 # Target rules for targets named mpu6050driver
 
 # Build rule for target.
@@ -209,6 +222,30 @@ mpu6050driver: cmake_check_build_system
 mpu6050driver/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpu6050driver.dir/build.make CMakeFiles/mpu6050driver.dir/build
 .PHONY : mpu6050driver/fast
+
+src/imu_odom.o: src/imu_odom.cpp.o
+.PHONY : src/imu_odom.o
+
+# target to build an object file
+src/imu_odom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_odom.dir/build.make CMakeFiles/imu_odom.dir/src/imu_odom.cpp.o
+.PHONY : src/imu_odom.cpp.o
+
+src/imu_odom.i: src/imu_odom.cpp.i
+.PHONY : src/imu_odom.i
+
+# target to preprocess a source file
+src/imu_odom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_odom.dir/build.make CMakeFiles/imu_odom.dir/src/imu_odom.cpp.i
+.PHONY : src/imu_odom.cpp.i
+
+src/imu_odom.s: src/imu_odom.cpp.s
+.PHONY : src/imu_odom.s
+
+# target to generate assembly for a file
+src/imu_odom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_odom.dir/build.make CMakeFiles/imu_odom.dir/src/imu_odom.cpp.s
+.PHONY : src/imu_odom.cpp.s
 
 src/mpu6050driver.o: src/mpu6050driver.cpp.o
 .PHONY : src/mpu6050driver.o
@@ -273,7 +310,11 @@ help:
 	@echo "... test"
 	@echo "... mpu6050driver_uninstall"
 	@echo "... uninstall"
+	@echo "... imu_odom"
 	@echo "... mpu6050driver"
+	@echo "... src/imu_odom.o"
+	@echo "... src/imu_odom.i"
+	@echo "... src/imu_odom.s"
 	@echo "... src/mpu6050driver.o"
 	@echo "... src/mpu6050driver.i"
 	@echo "... src/mpu6050driver.s"

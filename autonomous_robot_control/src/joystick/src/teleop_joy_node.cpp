@@ -22,17 +22,18 @@ public:
 private:
     void callback(const sensor_msgs::msg::Joy::SharedPtr msg) // Callback function for joystick input
     {
+        int thr_sens=0.2; // Sensitivity for throttle control
         auto twist_message = geometry_msgs::msg::Twist(); // Create a Twist message to hold velocity commands
         
         // Set rotation speed based on joystick input
-        twist_message.angular.z = msg->axes[0];
+        twist_message.angular.z = (msg->axes[0])*thr_sens;
 
         // Calculate linear speed for forward movement
         if(msg->axes[5] >= 0){ // If the joystick axis for forward motion is positive
-            twist_message.linear.x = -(msg->axes[5]) / 2.0 + 0.5; // Normalize and scale the value
+            twist_message.linear.x = (-(msg->axes[5]) / 2.0 + 0.5)*thr_sens; // Normalize and scale the value
         }
         else{ // If the joystick axis for forward motion is negative
-            twist_message.linear.x = (-msg->axes[5] + 1.0) / 2.0; // Normalize and scale the value
+            twist_message.linear.x = ((-msg->axes[5] + 1.0) / 2.0) *thr_sens;; // Normalize and scale the value
         }
 
         // Boost/HighSpeed button (ONLY forward if comes before 'Reverse' logic)           - comment one of us
@@ -42,20 +43,20 @@ private:
         // Reverse movement (only if the current linear speed is not positive)
         if(twist_message.linear.x <= 0){
             if(msg->axes[2] >= 0){ // If the joystick axis for reverse motion is positive
-                twist_message.linear.x = (msg->axes[2]) / 2.0 - 0.5; // Normalize and scale the value for reverse
+                twist_message.linear.x = ((msg->axes[2]) / 2.0 - 0.5) *thr_sens; // Normalize and scale the value for reverse
             }
             else{ // If the joystick axis for reverse motion is negative
-                twist_message.linear.x = (msg->axes[2] - 1.0) / 2.0; // Normalize and scale the value for reverse
+                twist_message.linear.x = ((msg->axes[2] - 1.0) / 2.0) *thr_sens; // Normalize and scale the value for reverse
             }
         }
 
         // Boost/HighSpeed button (ALSO for reverse if comes after 'Reverse' logic)        - comment one of us
         if(msg->buttons[1]) // Check if the boost button is pressed
-            twist_message.linear.x = twist_message.linear.x * 2.0; // Double the speed (for both forward and reverse)
+            twist_message.linear.x = twist_message.linear.x *thr_sens* 1.3; // Double the speed (for both forward and reverse)
 
         // Drift (high rotation speed) based on button input
         if(msg->buttons[4]) // If the drift button is pressed
-            twist_message.angular.z = twist_message.angular.z * 2.0; // Double the angular speed for drifting
+            twist_message.angular.z = twist_message.angular.z * thr_sens *1.3; // Double the angular speed for drifting
 
         // Publish the Twist message to the "/cmd_vel" topic
         publisher_->publish(twist_message);

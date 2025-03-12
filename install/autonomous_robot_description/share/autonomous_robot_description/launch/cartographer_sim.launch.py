@@ -27,7 +27,7 @@ from launch.substitutions import ThisLaunchFileDir
 
 def generate_launch_description():
     # Launch configuration
-    use_sim_time = LaunchConfiguration('use_sim_time', default='true')
+    use_sim_time = LaunchConfiguration('use_sim_time', default='false')
     
     # Get the path to the 'autonomous_robot_description' package
     autonomous_robot_description_prefix = get_package_share_directory('autonomous_robot_description')
@@ -81,7 +81,6 @@ def generate_launch_description():
             arguments=['-configuration_directory', cartographer_config_dir,
                        '-configuration_basename', configuration_basename]
         ),
-
         # Include occupancy grid launch
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([ThisLaunchFileDir(), '/occupancy_grid.launch.py']),

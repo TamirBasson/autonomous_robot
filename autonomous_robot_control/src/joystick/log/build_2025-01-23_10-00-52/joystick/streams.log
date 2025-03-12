@@ -1,0 +1,56 @@
+[0.012s] Invoking command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ws_moveit2/install/moveit_configs_utils:/home/tamir/ws_moveit2/install/launch_param_builder:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick -- -j12 -l12
+[0.036s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.176s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.202s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.203s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.208s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.228s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.256s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.258s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.352s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.394s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.419s] -- Found robot_common_interfaces: 0.0.0 (/home/tamir/autonomous_robot/install/robot_common_interfaces/share/robot_common_interfaces/cmake)
+[0.484s] -- Configuring done
+[0.496s] -- Generating done
+[0.500s] -- Build files have been written to: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target joystick[0m
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target teleop_joy_node[0m
+[0.555s] [ 16%] [32mBuilding CXX object CMakeFiles/joystick.dir/src/joy_compute_control.cpp.o[0m
+[0.562s] [ 33%] [32mBuilding CXX object CMakeFiles/teleop_joy_node.dir/src/teleop_joy_node.cpp.o[0m
+[0.673s] [ 50%] [32m[1mLinking CXX static library libjoystick.a[0m
+[0.709s] [ 50%] Built target joystick
+[0.722s] [35m[1mConsolidate compiler generated dependencies of target prototype_joy_driver[0m
+[0.740s] [ 66%] [32mBuilding CXX object CMakeFiles/prototype_joy_driver.dir/src/prototype_joy_driver.cpp.o[0m
+[6.138s] [ 83%] [32m[1mLinking CXX executable teleop_joy_node[0m
+[6.343s] [100%] [32m[1mLinking CXX executable prototype_joy_driver[0m
+[6.450s] [100%] Built target teleop_joy_node
+[6.665s] [100%] Built target prototype_joy_driver
+[6.677s] Invoked command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ws_moveit2/install/moveit_configs_utils:/home/tamir/ws_moveit2/install/launch_param_builder:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick -- -j12 -l12
+[6.693s] Invoking command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ws_moveit2/install/moveit_configs_utils:/home/tamir/ws_moveit2/install/launch_param_builder:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick
+[6.705s] -- Install configuration: ""
+[6.705s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/lib/joystick/teleop_joy_node
+[6.708s] -- Set runtime path of "/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/lib/joystick/teleop_joy_node" to ""
+[6.709s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/lib/joystick/prototype_joy_driver
+[6.711s] -- Set runtime path of "/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/lib/joystick/prototype_joy_driver" to ""
+[6.711s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/include/joystick
+[6.711s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/include/joystick/joystick
+[6.711s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/include/joystick/joystick/joy_compute_control.hpp
+[6.712s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick//launch
+[6.712s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick//launch/joystick.launch.py
+[6.712s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/ament_index/resource_index/package_run_dependencies/joystick
+[6.712s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/ament_index/resource_index/parent_prefix_path/joystick
+[6.712s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick/environment/ament_prefix_path.sh
+[6.712s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick/environment/ament_prefix_path.dsv
+[6.712s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick/environment/path.sh
+[6.712s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick/environment/path.dsv
+[6.712s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick/local_setup.bash
+[6.712s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick/local_setup.sh
+[6.712s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick/local_setup.zsh
+[6.713s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick/local_setup.dsv
+[6.713s] -- Installing: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick/package.dsv
+[6.713s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/ament_index/resource_index/packages/joystick
+[6.713s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick/cmake/joystickConfig.cmake
+[6.713s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick/cmake/joystickConfig-version.cmake
+[6.713s] -- Up-to-date: /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/install/joystick/share/joystick/package.xml
+[6.714s] Invoked command in '/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ws_moveit2/install/moveit_configs_utils:/home/tamir/ws_moveit2/install/launch_param_builder:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick

@@ -15,6 +15,7 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/tamir/autonomous_robot/build/robot_common_interfaces/rosidl_generator_cpp/robot_common_interfaces/msg/detail/ser_com_struct__builder.hpp" "/home/tamir/autonomous_robot/build/robot_common_interfaces/rosidl_generator_cpp/robot_common_interfaces/msg/ser_com_struct.hpp"
   "/home/tamir/autonomous_robot/build/robot_common_interfaces/rosidl_generator_cpp/robot_common_interfaces/msg/detail/ser_com_struct__struct.hpp" "/home/tamir/autonomous_robot/build/robot_common_interfaces/rosidl_generator_cpp/robot_common_interfaces/msg/ser_com_struct.hpp"
   "/home/tamir/autonomous_robot/build/robot_common_interfaces/rosidl_generator_cpp/robot_common_interfaces/msg/detail/ser_com_struct__traits.hpp" "/home/tamir/autonomous_robot/build/robot_common_interfaces/rosidl_generator_cpp/robot_common_interfaces/msg/ser_com_struct.hpp"
+  "/home/tamir/autonomous_robot/build/robot_common_interfaces/rosidl_generator_cpp/robot_common_interfaces/msg/detail/ser_com_struct__type_support.hpp" "/home/tamir/autonomous_robot/build/robot_common_interfaces/rosidl_generator_cpp/robot_common_interfaces/msg/ser_com_struct.hpp"
   )
 
 

@@ -1,5 +1,4 @@
 /home/tamir/autonomous_robot/install/joystick/lib/joystick/teleop_joy_node
-/home/tamir/autonomous_robot/install/joystick/lib/joystick/prototype_joy_driver
 /home/tamir/autonomous_robot/install/joystick/include/joystick/joystick/joy_compute_control.hpp
 /home/tamir/autonomous_robot/install/joystick/share/joystick//launch/joystick.launch.py
 /home/tamir/autonomous_robot/install/joystick/share/ament_index/resource_index/package_run_dependencies/joystick

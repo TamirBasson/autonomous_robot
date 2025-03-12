@@ -6,48 +6,40 @@ ekf_filter_node:
   transform_timeout: 0.1
   map_frame: map
   odom_frame: odom
-  base_link_frame: base_link
+  base_link_frame: base_footprint
   world_frame: odom
 
   # IMU data
-  imu0: /imu_odom
-  imu0_config: [false, false, false, # X, Y, Z
-                true, true, true, # Roll, Pitch, Yaw
-                false, false, false, # x, y linear velocity
-                true, true, true] # Angular velocity X, Y, Z
+  imu0: /imu
+  imu0_config: [false, false, false,    # X, Y, Z positions (not used)
+              false, false, true,     # Use only yaw (ignore roll and pitch)
+              false, false, false,    # Ignore linear velocities
+              false, false, true]     # Use only yaw angular velocity (ignore others)
+
   imu0_differential: false
   imu0_queue_size: 10
   imu0_remove_gravitational_acceleration: true
 
-  # Encoder odometry
-  odom0: /encoder_odom
-  odom0_config: [true, true, false,
-                 false, false, true,
-                 true, false, false,
-                 false, false, true]
-  odom0_differential: false
-  odom0_queue_size: 10
+  # # Laser scan data
+  # laser_scan0: /scan  # Replace with your actual laser scan topic
+  # laser_scan0_config: [true, true, false,  # X, Y
+  #                      false, false, false, # Z, Roll, Pitch
+  #                      false, false, true,  # Yaw, Linear Velocity X, Y
+  #                      false, false, false] # Angular Velocity Z
+  # laser_scan0_differential: false
+  # laser_scan0_queue_size: 10
 
-  # Laser scan data
-  laser_scan0: /scan  # Replace with your actual laser scan topic
-  laser_scan0_config: [true, true, false,  # X, Y
-                       false, false, false, # Z, Roll, Pitch
-                       false, false, true,  # Yaw, Linear Velocity X, Y
-                       false, false, false] # Angular Velocity Z
-  laser_scan0_differential: false
-  laser_scan0_queue_size: 10
+  # # Noise covariances
+  # process_noise_covariance: [0.1, 0, 0, 0, 0, 0,
+  #                            0, 0.1, 0, 0, 0, 0,
+  #                            0, 0, 0.05, 0, 0, 0,
+  #                            0, 0, 0, 0.05, 0, 0,
+  #                            0, 0, 0, 0, 0.05, 0,
+  #                            0, 0, 0, 0, 0, 0.05]
 
-  # Noise covariances
-  process_noise_covariance: [0.1, 0, 0, 0, 0, 0,
-                             0, 0.1, 0, 0, 0, 0,
-                             0, 0, 0.05, 0, 0, 0,
-                             0, 0, 0, 0.05, 0, 0,
-                             0, 0, 0, 0, 0.05, 0,
-                             0, 0, 0, 0, 0, 0.05]
-
-  initial_estimate_covariance: [0.5, 0, 0, 0, 0, 0,
-                                0, 0.5, 0, 0, 0, 0,
-                                0, 0, 0.1, 0, 0, 0,
-                                0, 0, 0, 0.1, 0, 0,
-                                0, 0, 0, 0, 0.1, 0,
-                                0, 0, 0, 0, 0, 0.1]
+  # initial_estimate_covariance: [0.5, 0, 0, 0, 0, 0,
+  #                               0, 0.5, 0, 0, 0, 0,
+  #                               0, 0, 0.1, 0, 0, 0,
+  #                               0, 0, 0, 0.1, 0, 0,
+  #                               0, 0, 0, 0, 0.1, 0,
+  #                               0, 0, 0, 0, 0, 0.1]

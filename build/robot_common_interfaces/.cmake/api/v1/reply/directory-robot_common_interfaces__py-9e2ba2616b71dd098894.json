@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_common_interfaces__py",
+		"source" : "/home/tamir/autonomous_robot/build/robot_common_interfaces/robot_common_interfaces__py"
+	}
+}

@@ -65,7 +65,6 @@ CMAKE_BINARY_DIR = /home/tamir/autonomous_robot/build/joystick
 # The main recursive "all" target.
 all: CMakeFiles/joystick.dir/all
 all: CMakeFiles/teleop_joy_node.dir/all
-all: CMakeFiles/prototype_joy_driver.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -77,7 +76,6 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/joystick_uninstall.dir/clean
 clean: CMakeFiles/joystick.dir/clean
 clean: CMakeFiles/teleop_joy_node.dir/clean
-clean: CMakeFiles/prototype_joy_driver.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -165,7 +163,7 @@ CMakeFiles/joystick.dir/clean:
 CMakeFiles/teleop_joy_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleop_joy_node.dir/build.make CMakeFiles/teleop_joy_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleop_joy_node.dir/build.make CMakeFiles/teleop_joy_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamir/autonomous_robot/build/joystick/CMakeFiles --progress-num=5,6 "Built target teleop_joy_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamir/autonomous_robot/build/joystick/CMakeFiles --progress-num=3,4 "Built target teleop_joy_node"
 .PHONY : CMakeFiles/teleop_joy_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -183,32 +181,6 @@ teleop_joy_node: CMakeFiles/teleop_joy_node.dir/rule
 CMakeFiles/teleop_joy_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleop_joy_node.dir/build.make CMakeFiles/teleop_joy_node.dir/clean
 .PHONY : CMakeFiles/teleop_joy_node.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/prototype_joy_driver.dir
-
-# All Build rule for target.
-CMakeFiles/prototype_joy_driver.dir/all: CMakeFiles/joystick.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prototype_joy_driver.dir/build.make CMakeFiles/prototype_joy_driver.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prototype_joy_driver.dir/build.make CMakeFiles/prototype_joy_driver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamir/autonomous_robot/build/joystick/CMakeFiles --progress-num=3,4 "Built target prototype_joy_driver"
-.PHONY : CMakeFiles/prototype_joy_driver.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prototype_joy_driver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamir/autonomous_robot/build/joystick/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/prototype_joy_driver.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamir/autonomous_robot/build/joystick/CMakeFiles 0
-.PHONY : CMakeFiles/prototype_joy_driver.dir/rule
-
-# Convenience name for target.
-prototype_joy_driver: CMakeFiles/prototype_joy_driver.dir/rule
-.PHONY : prototype_joy_driver
-
-# clean rule for target.
-CMakeFiles/prototype_joy_driver.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prototype_joy_driver.dir/build.make CMakeFiles/prototype_joy_driver.dir/clean
-.PHONY : CMakeFiles/prototype_joy_driver.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

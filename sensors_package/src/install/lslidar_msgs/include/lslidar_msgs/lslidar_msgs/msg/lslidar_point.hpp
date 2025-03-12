@@ -7,5 +7,6 @@
 #include "lslidar_msgs/msg/detail/lslidar_point__struct.hpp"
 #include "lslidar_msgs/msg/detail/lslidar_point__builder.hpp"
 #include "lslidar_msgs/msg/detail/lslidar_point__traits.hpp"
+#include "lslidar_msgs/msg/detail/lslidar_point__type_support.hpp"
 
 #endif  // LSLIDAR_MSGS__MSG__LSLIDAR_POINT_HPP_

@@ -6,8 +6,9 @@
 
     <xacro:include filename="common_properties.xacro" />
     <xacro:include filename="mobile_robot.xacro" />
-
-    <xacro:if value="$(arg use_ros2_control)"> <!--switching between ros2_control and gazebo control-->
+    
+<!-- switching between ros2_control and gazebo control -->
+    <xacro:if value="$(arg use_ros2_control)"> 
         <xacro:include filename="ros2_control.xacro" />
     </xacro:if>
     <xacro:unless value="$(arg use_ros2_control)">

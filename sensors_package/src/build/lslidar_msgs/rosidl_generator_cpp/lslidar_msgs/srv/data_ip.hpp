@@ -7,5 +7,6 @@
 #include "lslidar_msgs/srv/detail/data_ip__struct.hpp"
 #include "lslidar_msgs/srv/detail/data_ip__builder.hpp"
 #include "lslidar_msgs/srv/detail/data_ip__traits.hpp"
+#include "lslidar_msgs/srv/detail/data_ip__type_support.hpp"
 
 #endif  // LSLIDAR_MSGS__SRV__DATA_IP_HPP_

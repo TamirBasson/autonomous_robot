@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages",
+        "/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/lib/python3.10/site-packages",
+        "/home/tamir/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/tamir/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/tamir/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/tamir/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages",
+        "/home/tamir/autonomous_robot/install/calc_odom/lib/python3.10/site-packages",
+        "/home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages",
+        "/home/tamir/autonomous_robot/install/control_hardware/lib/python3.10/site-packages",
+        "/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware/lib/python3.10/site-packages",
+        "/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom/lib/python3.10/site-packages",
+        "/home/tamir/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/tamir/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/tamir/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/tamir/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages",
+        "/home/tamir/autonomous_robot/install/calc_odom/lib/python3.10/site-packages",
+        "/home/tamir/autonomous_robot/install/robot_common_interfaces/local/lib/python3.10/dist-packages",
+        "/home/tamir/autonomous_robot/install/control_hardware/lib/python3.10/site-packages",
+        "/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

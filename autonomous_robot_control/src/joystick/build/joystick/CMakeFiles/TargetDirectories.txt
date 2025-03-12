@@ -1,0 +1,12 @@
+/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick/CMakeFiles/uninstall.dir
+/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick/CMakeFiles/joystick_uninstall.dir
+/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick/CMakeFiles/joystick.dir
+/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick/CMakeFiles/teleop_joy_node.dir
+/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick/CMakeFiles/prototype_joy_driver.dir
+/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick/CMakeFiles/test.dir
+/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick/CMakeFiles/edit_cache.dir
+/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick/CMakeFiles/rebuild_cache.dir
+/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick/CMakeFiles/list_install_components.dir
+/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick/CMakeFiles/install.dir
+/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick/CMakeFiles/install/local.dir
+/home/tamir/autonomous_robot/autonomous_robot_control/src/joystick/build/joystick/CMakeFiles/install/strip.dir

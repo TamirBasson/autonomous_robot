@@ -1,5 +1,6 @@
 /home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver/CMakeFiles/uninstall.dir
 /home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver/CMakeFiles/mpu6050driver_uninstall.dir
+/home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver/CMakeFiles/imu_odom.dir
 /home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver/CMakeFiles/mpu6050driver.dir
 /home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver/CMakeFiles/test.dir
 /home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver/CMakeFiles/edit_cache.dir

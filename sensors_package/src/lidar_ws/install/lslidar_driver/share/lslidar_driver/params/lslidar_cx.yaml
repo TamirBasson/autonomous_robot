@@ -8,7 +8,7 @@
     add_multicast: false      # Whether the lidar uses multicast mode true: use multicast mode
     group_ip: 224.1.1.2       # Multicast IP
     use_time_service: false   # Whether the lidar uses external time service (GPS PTP NTP) true: use external time service
-    min_range: 0.5          # Minimum lidar scan distance (points less than this value will be filtered)
+    min_range: 0.8          # Minimum lidar scan distance (points less than this value will be filtered)
     max_range: 4.0          # Maximum lidar scan distance (points greater than this value will be filtered)
     angle_disable_min: 0      # Minimum angle clipping for lidar scan, unit 0.01°
     angle_disable_max: 0      # Maximum angle clipping for lidar scan, unit 0.01°

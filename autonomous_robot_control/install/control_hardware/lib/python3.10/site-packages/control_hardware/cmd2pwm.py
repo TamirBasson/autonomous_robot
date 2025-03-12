@@ -11,7 +11,7 @@ class CmdVelToPwmNode(Node):
         self.subscription = self.create_subscription(Twist, '/cmd_vel_muxed', self.cmd_vel_callback, 10)
         # Publish to 'motor_throttle_control'
         self.publisher = self.create_publisher(SerComStruct, 'motor_throttle_control', 10)
-
+        self.sens=0.8
         # Parameters
         self.wheel_base = 0.475  # Distance between wheels (meters)
 
@@ -54,10 +54,10 @@ class CmdVelToPwmNode(Node):
             return pwm_outp  # No movement, return 0
 
         if velocity > threshold:  # Forward low gear
-            pwm_outp = int(7.2374 * velocity + 64.5066)
+            pwm_outp = int((7.2374 * velocity + 64.5066)*self.sens)
         elif velocity < -threshold:  # Backward low gear
             abs_velocity = abs(velocity)
-            pwm_outp = -int((6.921 * abs_velocity + 65.9686) * 1.4)  # Negative for reverse
+            pwm_outp = -int((6.921 * abs_velocity + 65.9686) * self.sens*1.4)  # Negative for reverse
 
         return pwm_outp
 

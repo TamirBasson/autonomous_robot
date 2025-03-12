@@ -1,0 +1,438 @@
+[0.013s] Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/build/lslidar_msgs -- -j12 -l12
+[0.106s] [  0%] Built target lslidar_msgs__cpp
+[0.124s] [ 12%] Built target lslidar_msgs__rosidl_generator_c
+[0.139s] [ 12%] Built target ament_cmake_python_copy_lslidar_msgs
+[0.159s] [ 13%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[0.160s] [ 14%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[0.160s] [ 15%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_point__type_support.cpp.o[0m
+[0.160s] [ 18%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_packet__type_support.cpp.o[0m
+[0.161s] [ 18%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/data_ip__type_support.cpp.o[0m
+[0.161s] [ 18%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[0.161s] [ 19%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_scan__type_support.cpp.o[0m
+[0.166s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp.o[0m
+[0.173s] [ 32%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[0.177s] [ 45%] Built target lslidar_msgs__rosidl_typesupport_c
+[0.177s] [ 45%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_packet__type_support_c.cpp.o[0m
+[0.188s] [ 46%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_point__type_support_c.cpp.o[0m
+[0.188s] [ 47%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/data_ip__type_support.cpp.o[0m
+[0.500s] [ 48%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_scan__type_support_c.cpp.o[0m
+[0.500s] [ 49%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/data_port__type_support.cpp.o[0m
+[0.503s] [ 50%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/data_port__type_support.cpp.o[0m
+[0.508s] [ 51%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/data_ip__type_support_c.cpp.o[0m
+[0.594s] [ 52%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/destination_ip__type_support.cpp.o[0m
+[0.622s] running egg_info
+[0.624s] writing lslidar_msgs.egg-info/PKG-INFO
+[0.630s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[0.630s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[0.636s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[0.642s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[0.666s] [ 52%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp.o[0m
+[0.684s] [ 53%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/destination_ip__type_support.cpp.o[0m
+[0.688s] [ 54%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp.o[0m
+[0.719s] [ 55%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/dev_port__type_support.cpp.o[0m
+[0.721s] [ 55%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/data_port__type_support_c.cpp.o[0m
+[0.725s] [ 56%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/data_ip__type_support.cpp.o[0m
+[0.726s] [ 56%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[0.737s] [ 57%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/dev_port__type_support.cpp.o[0m
+[0.806s] [ 57%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/lslidar_control__type_support.cpp.o[0m
+[0.880s] [ 58%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/motor_control__type_support.cpp.o[0m
+[0.959s] [ 59%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/destination_ip__type_support_c.cpp.o[0m
+[0.977s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/data_port__type_support.cpp.o[0m
+[1.020s] [ 61%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/motor_speed__type_support.cpp.o[0m
+[1.122s] [ 62%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/time_service__type_support.cpp.o[0m
+[1.161s] [ 63%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/lslidar_control__type_support.cpp.o[0m
+[1.214s] [ 64%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/destination_ip__type_support.cpp.o[0m
+[1.217s] [ 65%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/dev_port__type_support_c.cpp.o[0m
+[1.220s] [ 66%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/motor_control__type_support.cpp.o[0m
+[1.227s] [ 66%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/motor_speed__type_support.cpp.o[0m
+[1.253s] [ 67%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/lslidar_control__type_support_c.cpp.o[0m
+[1.339s] [ 68%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/dev_port__type_support.cpp.o[0m
+[1.348s] [ 70%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/lslidar_control__type_support.cpp.o[0m
+[1.348s] [ 69%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/time_service__type_support.cpp.o[0m
+[1.453s] [ 71%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/motor_control__type_support.cpp.o[0m
+[1.481s] [ 72%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_cpp.so[0m
+[1.490s] [ 73%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/motor_control__type_support_c.cpp.o[0m
+[1.595s] [ 74%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[1.621s] [ 75%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/motor_speed__type_support_c.cpp.o[0m
+[1.687s] [ 76%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/motor_speed__type_support.cpp.o[0m
+[1.721s] [ 77%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/time_service__type_support.cpp.o[0m
+[1.757s] [ 78%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/time_service__type_support_c.cpp.o[0m
+[1.934s] [ 79%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.010s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[2.065s] [ 80%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.137s] [ 81%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.137s] [ 82%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[2.204s] [ 83%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[2.225s] [ 83%] Built target lslidar_msgs
+[2.247s] [ 84%] Built target lslidar_msgs__py
+[2.278s] [ 86%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_point_s.c.o[0m
+[2.278s] [ 86%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_packet_s.c.o[0m
+[2.278s] [ 87%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_data_port_s.c.o[0m
+[2.278s] [ 88%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_scan_s.c.o[0m
+[2.278s] [ 90%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_lslidar_control_s.c.o[0m
+[2.279s] [ 90%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_dev_port_s.c.o[0m
+[2.279s] [ 91%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_data_ip_s.c.o[0m
+[2.280s] [ 92%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_motor_control_s.c.o[0m
+[2.281s] [ 92%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_destination_ip_s.c.o[0m
+[2.282s] [ 93%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_motor_speed_s.c.o[0m
+[2.285s] [ 94%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_time_service_s.c.o[0m
+[2.416s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so[0m
+[2.456s] [ 95%] Built target lslidar_msgs__rosidl_generator_py
+[2.473s] [ 95%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.479s] [ 96%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.481s] [ 97%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.580s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.586s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.626s] [ 99%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[2.626s] [ 99%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.639s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.687s] [100%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[2.700s] Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --build /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/build/lslidar_msgs -- -j12 -l12
+[2.928s] Invoking command in '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/build/lslidar_msgs
+[2.947s] -- Install configuration: ""
+[2.948s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[2.948s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[2.948s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[2.948s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.948s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[2.948s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h
+[2.948s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h
+[2.948s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h
+[2.948s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h
+[2.948s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_control.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/time_service.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/destination_ip.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__functions.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__functions.c
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__type_support.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__functions.c
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__functions.h
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__functions.c
+[2.949s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__struct.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__type_support.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__functions.c
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__struct.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__struct.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__functions.c
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__type_support.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__struct.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__type_support.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__struct.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__functions.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__struct.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__functions.c
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__type_support.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__functions.c
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__functions.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__struct.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__type_support.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__functions.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__functions.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__functions.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__type_support.h
+[2.950s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__type_support.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__struct.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__functions.c
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__functions.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_speed.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/data_port.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/dev_port.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/data_ip.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/lslidar_control.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__rosidl_typesupport_fastrtps_c.h
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__rosidl_typesupport_fastrtps_c.h
+[2.952s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[2.952s] -- Set runtime path of "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[2.952s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/destination_ip.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_speed.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__struct.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__builder.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__traits.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__builder.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__struct.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__builder.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__struct.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__builder.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__traits.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__builder.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__traits.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__traits.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__traits.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__traits.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__builder.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__struct.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__builder.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__traits.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__struct.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__traits.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__struct.hpp
+[2.953s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__builder.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__struct.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__struct.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_control.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/lslidar_control.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/time_service.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/dev_port.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/data_port.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/data_ip.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__rosidl_typesupport_fastrtps_cpp.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__rosidl_typesupport_fastrtps_cpp.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__rosidl_typesupport_fastrtps_cpp.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__rosidl_typesupport_fastrtps_cpp.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dds_fastrtps
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_fastrtps_cpp.hpp
+[2.954s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_fastrtps_cpp.hpp
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__rosidl_typesupport_fastrtps_cpp.hpp
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__rosidl_typesupport_fastrtps_cpp.hpp
+[2.955s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.955s] -- Set runtime path of "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__type_support.c
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__type_support.c
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__rosidl_typesupport_introspection_c.h
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__type_support.c
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__rosidl_typesupport_introspection_c.h
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__rosidl_typesupport_introspection_c.h
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__rosidl_typesupport_introspection_c.h
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_introspection_c.h
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_introspection_c.h
+[2.955s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__type_support.c
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__type_support.c
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__type_support.c
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__type_support.c
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__rosidl_typesupport_introspection_c.h
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__type_support.c
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__rosidl_typesupport_introspection_c.h
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__rosidl_typesupport_introspection_cpp.hpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__rosidl_typesupport_introspection_cpp.hpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__rosidl_typesupport_introspection_cpp.hpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_introspection_cpp.hpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__type_support.cpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__type_support.cpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__type_support.cpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__type_support.cpp
+[2.956s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_service__type_support.cpp
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_ip__type_support.cpp
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/dev_port__rosidl_typesupport_introspection_cpp.hpp
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/data_port__rosidl_typesupport_introspection_cpp.hpp
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/destination_ip__type_support.cpp
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/lslidar_control__rosidl_typesupport_introspection_cpp.hpp
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__type_support.cpp
+[2.957s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[2.957s] -- Set runtime path of "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.957s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[2.957s] -- Set runtime path of "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so" to ""
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-3.0.1-py3.10.egg-info
+[2.957s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-3.0.1-py3.10.egg-info/PKG-INFO
+[2.957s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-3.0.1-py3.10.egg-info/dependency_links.txt
+[2.957s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-3.0.1-py3.10.egg-info/top_level.txt
+[2.957s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-3.0.1-py3.10.egg-info/SOURCES.txt
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[2.957s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[2.958s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.958s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_dev_port_s.c
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_data_ip.py
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_time_service.py
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_speed.py
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_destination_ip_s.c
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/__init__.py
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_control_s.c
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_lslidar_control.py
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_data_port.py
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_dev_port.py
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_data_ip_s.c
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_lslidar_control_s.c
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_speed_s.c
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_data_port_s.c
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_time_service_s.c
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_destination_ip.py
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_control.py
+[2.958s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[2.958s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.958s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.987s] Listing '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[2.987s] Listing '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[2.987s] Listing '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv'...
+[2.990s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.990s] -- Set runtime path of "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.991s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.991s] -- Set runtime path of "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.991s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.991s] -- Set runtime path of "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.991s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[2.992s] -- Set runtime path of "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so" to ""
+[2.992s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[2.992s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl
+[2.992s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl
+[2.992s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DataIp.idl
+[2.992s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DataPort.idl
+[2.992s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DestinationIp.idl
+[2.992s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DevPort.idl
+[2.992s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/LslidarControl.idl
+[2.992s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl.idl
+[2.992s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed.idl
+[2.993s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeService.idl
+[2.993s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[2.993s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg
+[2.993s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg
+[2.993s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DataIp.srv
+[2.993s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DataIp_Request.msg
+[2.993s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DataIp_Response.msg
+[2.993s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DataPort.srv
+[2.993s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DataPort_Request.msg
+[2.993s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DataPort_Response.msg
+[2.993s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DestinationIp.srv
+[2.993s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DestinationIp_Request.msg
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DestinationIp_Response.msg
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DevPort.srv
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DevPort_Request.msg
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/DevPort_Response.msg
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/LslidarControl.srv
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/LslidarControl_Request.msg
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/LslidarControl_Response.msg
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl.srv
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl_Request.msg
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl_Response.msg
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed.srv
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed_Request.msg
+[2.994s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed_Response.msg
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeService.srv
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeService_Request.msg
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeService_Response.msg
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[2.995s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[2.995s] -- Installing: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.996s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[2.997s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[2.998s] -- Up-to-date: /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[2.999s] Invoked command in '/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --install /home/tamir/autonomous_robot/sensors_package/src/lidar_ws/build/lslidar_msgs

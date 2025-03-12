@@ -7,5 +7,6 @@
 #include "lslidar_msgs/srv/detail/lslidar_control__struct.hpp"
 #include "lslidar_msgs/srv/detail/lslidar_control__builder.hpp"
 #include "lslidar_msgs/srv/detail/lslidar_control__traits.hpp"
+#include "lslidar_msgs/srv/detail/lslidar_control__type_support.hpp"
 
 #endif  // LSLIDAR_MSGS__SRV__LSLIDAR_CONTROL_HPP_

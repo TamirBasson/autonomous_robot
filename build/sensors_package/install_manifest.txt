@@ -1,5 +1,6 @@
 /home/tamir/autonomous_robot/install/sensors_package/lib/sensors_package/camera_rgb_publisher.py
 /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/launch/launch/camera_launch.py
+/home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/launch/launch/all_sensors.launch.py
 /home/tamir/autonomous_robot/install/sensors_package/share/ament_index/resource_index/package_run_dependencies/sensors_package
 /home/tamir/autonomous_robot/install/sensors_package/share/ament_index/resource_index/parent_prefix_path/sensors_package
 /home/tamir/autonomous_robot/install/sensors_package/share/sensors_package/environment/ament_prefix_path.sh

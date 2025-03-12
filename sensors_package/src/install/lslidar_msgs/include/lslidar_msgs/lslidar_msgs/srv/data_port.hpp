@@ -7,5 +7,6 @@
 #include "lslidar_msgs/srv/detail/data_port__struct.hpp"
 #include "lslidar_msgs/srv/detail/data_port__builder.hpp"
 #include "lslidar_msgs/srv/detail/data_port__traits.hpp"
+#include "lslidar_msgs/srv/detail/data_port__type_support.hpp"
 
 #endif  // LSLIDAR_MSGS__SRV__DATA_PORT_HPP_

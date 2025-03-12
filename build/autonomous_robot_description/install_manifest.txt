@@ -6,7 +6,9 @@
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//config/nav2_cart_params.yaml
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//config/twist_mux.yaml
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//config/ekf.yaml
+/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//launch/__pycache__/navigation.launch.cpython-310.pyc
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//launch/__pycache__/navigation_cartographer.cpython-310.pyc
+/home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//launch/__pycache__/sim_gazebo.launch.cpython-310.pyc
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//launch/sim_gazebo.launch.py
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//launch/localization_cartographer_sim.launch.py
 /home/tamir/autonomous_robot/install/autonomous_robot_description/share/autonomous_robot_description//launch/build/COLCON_IGNORE

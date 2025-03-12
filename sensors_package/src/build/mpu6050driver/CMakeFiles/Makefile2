@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/tamir/autonomous_robot/sensors_package/src/build/mpu605
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/imu_odom.dir/all
 all: CMakeFiles/mpu6050driver.dir/all
 .PHONY : all
 
@@ -73,6 +74,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/mpu6050driver_uninstall.dir/clean
+clean: CMakeFiles/imu_odom.dir/clean
 clean: CMakeFiles/mpu6050driver.dir/clean
 .PHONY : clean
 
@@ -129,13 +131,39 @@ CMakeFiles/mpu6050driver_uninstall.dir/clean:
 .PHONY : CMakeFiles/mpu6050driver_uninstall.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/imu_odom.dir
+
+# All Build rule for target.
+CMakeFiles/imu_odom.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_odom.dir/build.make CMakeFiles/imu_odom.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_odom.dir/build.make CMakeFiles/imu_odom.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver/CMakeFiles --progress-num=1,2 "Built target imu_odom"
+.PHONY : CMakeFiles/imu_odom.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/imu_odom.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/imu_odom.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver/CMakeFiles 0
+.PHONY : CMakeFiles/imu_odom.dir/rule
+
+# Convenience name for target.
+imu_odom: CMakeFiles/imu_odom.dir/rule
+.PHONY : imu_odom
+
+# clean rule for target.
+CMakeFiles/imu_odom.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_odom.dir/build.make CMakeFiles/imu_odom.dir/clean
+.PHONY : CMakeFiles/imu_odom.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/mpu6050driver.dir
 
 # All Build rule for target.
 CMakeFiles/mpu6050driver.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpu6050driver.dir/build.make CMakeFiles/mpu6050driver.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpu6050driver.dir/build.make CMakeFiles/mpu6050driver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver/CMakeFiles --progress-num=1,2,3 "Built target mpu6050driver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamir/autonomous_robot/sensors_package/src/build/mpu6050driver/CMakeFiles --progress-num=3,4,5 "Built target mpu6050driver"
 .PHONY : CMakeFiles/mpu6050driver.dir/all
 
 # Build rule for subdir invocation for target.

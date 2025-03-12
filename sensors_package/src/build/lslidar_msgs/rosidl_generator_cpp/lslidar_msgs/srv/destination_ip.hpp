@@ -7,5 +7,6 @@
 #include "lslidar_msgs/srv/detail/destination_ip__struct.hpp"
 #include "lslidar_msgs/srv/detail/destination_ip__builder.hpp"
 #include "lslidar_msgs/srv/detail/destination_ip__traits.hpp"
+#include "lslidar_msgs/srv/detail/destination_ip__type_support.hpp"
 
 #endif  // LSLIDAR_MSGS__SRV__DESTINATION_IP_HPP_

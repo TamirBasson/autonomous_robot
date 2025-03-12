@@ -18,13 +18,13 @@ def generate_launch_description():
          )
 
     # using my joy node
-    teleop_node = Node(
-            package='joystick',
-            executable='teleop_joy_node',
-            name='teleop_node',
-            parameters=[{'use_sim_time': use_sim_time}],
-            remappings=[('/cmd_vel','/cmd_vel')]
-         )
+    # teleop_node = Node(
+    #         package='joystick',
+    #         executable='teleop_joy_node',
+    #         name='teleop_node',
+    #         parameters=[{'use_sim_time': use_sim_time}],
+    #         remappings=[('/cmd_vel','/cmd_vel')]
+    #      )
     
     # using ros2 teleop twist joy node
     # teleop_node = Node(
@@ -47,9 +47,9 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
             'use_sim_time',
-            default_value='true',
+            default_value='false',
             description='Use sim time if true'),
-        joy_node,
-        teleop_node
+        joy_node
+        #teleop_node
         # twist_stamper       
     ])

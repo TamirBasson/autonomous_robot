@@ -223,19 +223,6 @@ teleop_joy_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleop_joy_node.dir/build.make CMakeFiles/teleop_joy_node.dir/build
 .PHONY : teleop_joy_node/fast
 
-#=============================================================================
-# Target rules for targets named prototype_joy_driver
-
-# Build rule for target.
-prototype_joy_driver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prototype_joy_driver
-.PHONY : prototype_joy_driver
-
-# fast build rule for target.
-prototype_joy_driver/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prototype_joy_driver.dir/build.make CMakeFiles/prototype_joy_driver.dir/build
-.PHONY : prototype_joy_driver/fast
-
 src/joy_compute_control.o: src/joy_compute_control.cpp.o
 .PHONY : src/joy_compute_control.o
 
@@ -259,30 +246,6 @@ src/joy_compute_control.s: src/joy_compute_control.cpp.s
 src/joy_compute_control.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joystick.dir/build.make CMakeFiles/joystick.dir/src/joy_compute_control.cpp.s
 .PHONY : src/joy_compute_control.cpp.s
-
-src/prototype_joy_driver.o: src/prototype_joy_driver.cpp.o
-.PHONY : src/prototype_joy_driver.o
-
-# target to build an object file
-src/prototype_joy_driver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prototype_joy_driver.dir/build.make CMakeFiles/prototype_joy_driver.dir/src/prototype_joy_driver.cpp.o
-.PHONY : src/prototype_joy_driver.cpp.o
-
-src/prototype_joy_driver.i: src/prototype_joy_driver.cpp.i
-.PHONY : src/prototype_joy_driver.i
-
-# target to preprocess a source file
-src/prototype_joy_driver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prototype_joy_driver.dir/build.make CMakeFiles/prototype_joy_driver.dir/src/prototype_joy_driver.cpp.i
-.PHONY : src/prototype_joy_driver.cpp.i
-
-src/prototype_joy_driver.s: src/prototype_joy_driver.cpp.s
-.PHONY : src/prototype_joy_driver.s
-
-# target to generate assembly for a file
-src/prototype_joy_driver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prototype_joy_driver.dir/build.make CMakeFiles/prototype_joy_driver.dir/src/prototype_joy_driver.cpp.s
-.PHONY : src/prototype_joy_driver.cpp.s
 
 src/teleop_joy_node.o: src/teleop_joy_node.cpp.o
 .PHONY : src/teleop_joy_node.o
@@ -324,14 +287,10 @@ help:
 	@echo "... joystick_uninstall"
 	@echo "... uninstall"
 	@echo "... joystick"
-	@echo "... prototype_joy_driver"
 	@echo "... teleop_joy_node"
 	@echo "... src/joy_compute_control.o"
 	@echo "... src/joy_compute_control.i"
 	@echo "... src/joy_compute_control.s"
-	@echo "... src/prototype_joy_driver.o"
-	@echo "... src/prototype_joy_driver.i"
-	@echo "... src/prototype_joy_driver.s"
 	@echo "... src/teleop_joy_node.o"
 	@echo "... src/teleop_joy_node.i"
 	@echo "... src/teleop_joy_node.s"

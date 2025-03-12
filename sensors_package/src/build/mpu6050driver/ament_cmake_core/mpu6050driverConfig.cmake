@@ -16,7 +16,7 @@ set(_mpu6050driver_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT mpu6050driver_FIND_QUIETLY)
-  message(STATUS "Found mpu6050driver: 0.0.1 (${mpu6050driver_DIR})")
+  message(STATUS "Found mpu6050driver: 0.0.0 (${mpu6050driver_DIR})")
 endif()
 
 # warn when using a deprecated package

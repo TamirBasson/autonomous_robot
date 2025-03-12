@@ -33,12 +33,19 @@ def generate_launch_description():
         }]
     )
 
-    # # Joint State Publisher Node         #I dont really need this in the real robot!!!
-    # joint_state_publisher = Node(
-    #     package="joint_state_publisher",
-    #     executable="joint_state_publisher",
-    #     output="screen",
-    #     parameters=[{"use_sim_time": False}]
+    joint_state_publisher = Node(
+    package='joint_state_publisher',
+    executable='joint_state_publisher',
+    name='joint_state_publisher',
+    output="screen",
+    parameters=[{"use_sim_time":False}]
+    )
+
+    # static_transform_publisher = Node(
+    #     package='tf2_ros',
+    #     executable='static_transform_publisher',
+    #     name='static_tf_pub_odom_base_footprint',
+    #     arguments=['0', '0', '0', '0', '0', '0', 'odom', 'base_footprint']
     # )
 
     # Twist Mux Node
@@ -61,7 +68,7 @@ def generate_launch_description():
     # CmdVel to PWM Node
     cmd_vel_to_pwm_node = Node(
         package="control_hardware",
-        executable="cmd2pwm.py",
+        executable="cmd2pwm",
         name="cmd_vel_to_pwm_node",
         output="screen",
         parameters=[{"use_sim_time": False, "wheel_base": 0.5}]
@@ -70,7 +77,7 @@ def generate_launch_description():
     # PWM to GPIO Node
     pwm_to_gpio_node = Node(
         package="control_hardware",
-        executable="pwm2GPIO.py",
+        executable="pwm2GPIO",
         name="pwm_to_gpio_node",
         output="screen",
         parameters=[{"use_sim_time": False}]
@@ -80,7 +87,8 @@ def generate_launch_description():
     return LaunchDescription([
         declare_urdf_path,
         robot_state_publisher,
-        #joint_state_publisher,
+        joint_state_publisher,
+        #static_transform_publisher,
         twist_mux,
         teleop_joy_node,
         cmd_vel_to_pwm_node,

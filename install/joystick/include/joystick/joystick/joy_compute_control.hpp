@@ -23,7 +23,7 @@ private:
     // const double d = 0.485;       // Wheels' distance [m]
     const double pi = 3.14159265;
     const int thres = 0.05;          // Threshold for mode switch (%)
-    const double thr_sens = 0.9;      // 
+    const double thr_sens = 0.6;      // 
     const double tur_sens = 0.9;
 };
 
